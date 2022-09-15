@@ -102,10 +102,10 @@ const CodeOfConduct = () => (
           the Co-Directors below:
           <ul>
             <li>
-              <b>Agnes Totschnig</b>: (438) 969-0186{" "}
+              <b>Ashley Lau</b>: <a href="tel:438-969-6838">(438) 969-6838</a>{" "}
             </li>
             <li>
-              <b>Logan Ralston</b>: (908) 328-9155
+              <b>Jenny Yu</b>: <a href="tel:905-621-6698">(905) 621-6698</a>
             </li>
           </ul>
           You can also email us at&nbsp;
@@ -123,19 +123,19 @@ const CodeOfConduct = () => (
           resources immediately:
           <br></br>
           <br></br>
-          <b>MLH Incident Reporting:</b> (409) 202-6060
+          <b>MLH Incident Reporting:</b> <a href="tel:409-202-6060">(409) 202-6060</a>
           <br></br>
           <br></br>
           <b>
             Sexual Assault Centre of the McGill Students’ Society (SACOMSS):{" "}
           </b>{" "}
-          (514) 398-8500
+          <a href="tel:514-398-8500">(514) 398-8500</a>
           <br></br>
           <br></br>
           <b>Montreal Police/Fire/Paramedics</b>
           <ul>
-            <li>Emergency: 911</li>
-            <li>Non-Emergency: (514) 280-2222</li>
+            <li>Emergency: <a href="tel:911">911</a></li>
+            <li>Non-Emergency: <a href="tel:514-280-2222">(514) 280-2222</a></li>
           </ul>
           <hr size="1"></hr>
           <br></br>
@@ -155,7 +155,7 @@ const CodeOfConduct = () => (
           any time.
           <br></br>
           <br></br>
-          Last modified on November 27, 2020.
+          Last modified on September 14, 2022.
         </p>
       </Text>
     </Content>
