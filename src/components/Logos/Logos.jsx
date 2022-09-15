@@ -57,7 +57,7 @@ const Logos = ({ scrollRef }) => (
         color: COLORS.faqBlue1,
       }}
     >
-      Our Sponsors
+      Past Sponsors
     </Content>
 
     {/* Tier 0/Terra sponsors (XL) */}
