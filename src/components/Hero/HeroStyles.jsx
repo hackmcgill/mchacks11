@@ -44,8 +44,7 @@ export const HeroStyles = styled.section`
     font-weight: 400;
     text-align: center;
     color: ${styleVars.hackWhite};
-    margin-top: 0;
-    margin-bottom: 72px;
+    margin-top: 16px;
   }
 
   .hero__subheading {
@@ -152,8 +151,6 @@ export const HeroStyles = styled.section`
       margin: auto;
       margin-top: 16px;
       font-size: 18px;
-      border-top: 2px solid ${styleVars.darkBlue};
-      border-bottom: 2px solid ${styleVars.darkBlue};
       padding: 8px 0;
       max-width: 440px;
     }

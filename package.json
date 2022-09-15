@@ -1,8 +1,8 @@
 {
-  "name": "mchacks9",
+  "name": "mchacks10",
   "private": true,
   "description": "McHacks website",
-  "version": "1.12.0",
+  "version": "1.0.0",
   "author": "HackMcGill @hackmcgill",
   "scripts": {
     "build": "gatsby build",

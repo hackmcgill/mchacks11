@@ -13,7 +13,7 @@ import MobileMenu from "./MobileMenu"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
-import MLHBanner from "../../assets/images/mlh-trust-badge-2022-white.svg"
+import MLHBanner from "../../assets/images/mlh-trust-badge-2023-white.svg"
 
 const Nav = ({
   scrollToAbout = () => {},
@@ -54,7 +54,9 @@ const Nav = ({
             <SocialMediaBar />
           </div>
           <div class="Nav__mlh-banner">
-            <img src={MLHBanner} alt="mlh-banner" />
+            <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white">
+              <img src={MLHBanner} alt="Major League Hacking 2023 Hackathon Season" />
+            </a>
           </div>
         </Links>
       </div>

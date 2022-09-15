@@ -38,6 +38,9 @@ export const textColor = hackBlack10
 export const faqBlue1 = "#02365E"
 export const faqBlue2 = "#A9DEFE"
 
+// mchacks 10 colour palette
+export const lightRed = "#F2463A"
+
 // global colors
 export const globalColorPrimary = hackWhite
 
