@@ -16,7 +16,7 @@ export const HeroStyles = styled.section`
   .hero__wrapper {
     z-index: 1;
     background-color: ${styleVars.darkBlue};
-    background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
+    background:  linear-gradient(to bottom, ${styleVars.skyBlue}, ${styleVars.hackBeige});
     text-align: center;
     width: 100%;
   }

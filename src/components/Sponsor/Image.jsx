@@ -4,13 +4,14 @@ export const Image = styled.img`
   height: auto;
   object-fit: contain;
   position: relative;
-  left: -120px;
-  width: 558px;
-  top: 30px;
+  width: 800px;
+  right: 65px;
+  top: -140px;
   height: auto;
 
   @media only screen and (max-width: 1345px) {
-    width: 418px;
+    top: -40px;
+    width: 518px;
   }
 
   @media only screen and (max-width: 1118px) {

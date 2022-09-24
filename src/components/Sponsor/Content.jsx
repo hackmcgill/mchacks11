@@ -2,13 +2,14 @@ import styled from "styled-components"
 
 export const Content = styled.div`
   display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
+  justify-content: space-around;
+  max-width: 1440px;
   margin: auto;
   padding-bottom: 112px;
 
   @media only screen and (max-width: 1345px) {
-    max-width: 880px;
+    justify-content: space-between;
+    max-width: 1000px;
   }
 
   @media only screen and (max-width: 1118px) {

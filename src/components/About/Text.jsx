@@ -3,10 +3,11 @@ import * as styleVars from "../variable"
 
 export const Text = styled.div`
   max-width: 440px;
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 60px;
 
   h2 {
-    color: ${styleVars.hackWhite};
+    color: ${styleVars.hackText};
     font-size: 36px;
     font-weight: bold;
     margin-top: 0;
@@ -14,7 +15,7 @@ export const Text = styled.div`
   }
 
   p {
-    color: ${styleVars.textColor};
+    color: ${styleVars.hackText};
     margin-top: 0;
     margin-bottom: 32px;
   }
