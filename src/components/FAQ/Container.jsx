@@ -1,11 +1,20 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
-import BgGridSquare from "../../assets/images/designs/faq-grid-square.svg"
 
-const Container = styled.div`
-  background-image: url(${BgGridSquare}), linear-gradient(#fed9af, #ffb260);
+const Container = styled.section`
+  background-image: linear-gradient(#FFF7DC 75%, #E6FCDD);
   position: relative;
-  height: 1080px;
+  height: 1550px;
+
+  .faq__confetti_top {
+    right: 30px;
+    top: 40px;
+  }
+
+  .faq__confetti_bottom {
+    left: -40px;
+    bottom: 20px;
+  }
 
   .QuestionBox {
     border: 1px solid ${styleVars.faqBlue2};
@@ -75,25 +84,14 @@ const Container = styled.div`
       }
     }
   }
-  
-  @media only screen and (max-width: 1300px) {
-    height: 990px;
-  }
 
   @media only screen and (max-width: 1000px) {
-    height: 1350px;
+    height: 1800px;
+    overflow: hidden;
   }
 
-  @media only screen and (max-width: 900px) {
-    height: 1440px;
-  }
-
-  @media only screen and (max-width: 425px) {
-    height: 1710px;
-  }
-
-  @media only screen and (max-width: 325px) {
-    height: 1980px;
+  @media only screen and (max-width: 768px) {
+    height: 2000px;
   }
 
   &.hidden {
