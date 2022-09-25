@@ -4,7 +4,7 @@ export const Image = styled.img`
   height: auto;
   object-fit: contain;
   position: relative;
-  left: 120px;
+  left: 122px;
   width: 560px;
   height: auto;
   margin-top: -140px;

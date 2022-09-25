@@ -9,7 +9,7 @@ export const Window = styled.div`
   --scaling-factor: 1 / 1442 * 100vw;
   position: relative;
   margin: auto;
-  top: 400px;
+  top: 300px;
 
   width: calc(1271 * var(--scaling-factor));
   height: calc(876 * var(--scaling-factor));

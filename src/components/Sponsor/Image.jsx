@@ -4,9 +4,10 @@ export const Image = styled.img`
   height: auto;
   object-fit: contain;
   position: relative;
-  width: 800px;
-  right: 65px;
+  width: 900px;
+  right: 165px;
   top: -140px;
+  margin-bottom: -140px;
   height: auto;
 
   @media only screen and (max-width: 1345px) {

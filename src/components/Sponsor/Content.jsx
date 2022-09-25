@@ -5,7 +5,6 @@ export const Content = styled.div`
   justify-content: space-around;
   max-width: 1440px;
   margin: auto;
-  padding-bottom: 112px;
 
   @media only screen and (max-width: 1345px) {
     justify-content: space-between;
