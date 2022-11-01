@@ -101,7 +101,7 @@ export const HeroStyles = styled.section`
   .hero__center-floating-land {
     position: relative;
     min-width: 400px;
-    width: 70%;
+    width: 49%;
     margin-top: -96px;
     z-index: 2;
   }
@@ -156,21 +156,6 @@ export const HeroStyles = styled.section`
     width: 20%;
     right: 0;
     z-index: 2;
-  }
-
-  .hero__grid {
-    width: 100%;
-    z-index: 1;
-    vertical-align: bottom;
-    animation: 5s ease-out 0s 1 slideDown;
-    transform-origin: top;
-    position: absolute;
-
-    &.hidden {
-      position: static;
-      animation: none;
-      visibility: hidden;
-    }
   }
  
   @media only screen and (min-width: 1078px) and (max-width: 1299px) {

@@ -17,9 +17,9 @@ import { ArrowStyles } from "./FloatingStyles"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 import SignUpForm from "./SignUpForm"
 
-/*const apply = () => {
+const apply = () => {
   window.location = "https://app.mchacks.ca/"
-}*/
+}
 
 const Live = () => {
   window.location = "/live"
@@ -31,8 +31,8 @@ const Hero = () => (
       <div className="hero__container">
         <img
           className="hero__heading-image"
-          width={520}
-          height={160}
+          width={346}
+          height={106}
           src={McHacksImg}
           alt="McHacks"
         />
@@ -45,6 +45,7 @@ const Hero = () => (
           <ArrowStyles src={ArrowImg} style={{ left: 25 }} />
         </div> */}
         {/* <Button onClick={Live}>Live Site →</Button> */}
+        <Button onClick={apply}>Apply Now →</Button>
         <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
         <div className="hero__email">
           <SignUpForm />
@@ -94,16 +95,6 @@ const Hero = () => (
         className="hero__center-floating-land"
         src={CenterFloatingLand}
         alt="Background image"
-      />
-    </div>
-    <div style={{position: 'relative'}}>
-      {/* <img
-        className="hero__grid"
-        src={GridImg}
-      /> */}
-      <img
-        className="hero__grid hidden"
-        src={GridImg}
       />
     </div>
   </HeroStyles>
