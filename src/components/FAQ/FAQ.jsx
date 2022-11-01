@@ -4,21 +4,14 @@ import Container from "./Container"
 import QuestionGroup from "./QuestionGroup"
 import Question from "./Question"
 import Window from "./Window"
-
-import {
-  TransitionToFAQ,
-  TopTransition,
-  TopTransitionSides,
-  BottomTransition,
-  TransitionToSponsors,
-} from "./Transitions"
+import Confetti1 from "../../assets/images/designs/confetti1.svg"
+import Confetti2 from "../../assets/images/designs/confetti2.svg"
+import Image from "./Image"
 
 const FAQ = ({ scrollRef }) => (
   <>
-    <TransitionToFAQ />
-    <TopTransition />
     <Container ref={scrollRef}>
-      <TopTransitionSides />
+      <Image src={Confetti1} className="faq__confetti_top" />
       <Window>
         <div className="content">
           <h2>Any questions?</h2>
@@ -87,9 +80,8 @@ const FAQ = ({ scrollRef }) => (
           </div>
         </div>
       </Window>
+      <Image src={Confetti2} className="faq__confetti_bottom" />
     </Container>
-    <BottomTransition />
-    <TransitionToSponsors />
   </>
 )
 

@@ -6,7 +6,7 @@ export const Content = styled.div`
   max-width: 1200px;
   margin: auto;
   padding-top: 144px;
-  padding-bottom: 144px;
+  padding-bottom: 0px;
 
   @media only screen and (max-width: 1345px) {
     max-width: 1000px;
