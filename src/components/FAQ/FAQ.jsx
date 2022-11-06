@@ -23,15 +23,14 @@ const FAQ = ({ scrollRef }) => (
               </Question>
 
               <Question question="When is McHacks?">
-                This year, we'll be extending McHacks from 24 to 36 hours! It
-                will start on Friday at 7pm and end on Sunday at 2:30pm Eastern
-                time on the weekend of January 21-23.
+                This year, we'll be running McHacks for 24 hours! It
+                will start on Saturday at 8am and end on Sunday at 4pm Eastern
+                time on the weekend of January 28-29.
               </Question>
 
               <Question question="How can I participate in McHacks?">
-                This year McHacks is taking place virtually and we’ll be using
-                platforms like Discord and Zoom to connect hackers around the
-                world. We’ll provide more details on how to participate as we
+                This year McHacks is taking place in person at the University Centre Building
+                on the McGill University campus. We’ll provide more details on the specifics as we
                 get closer to McHacks, but right now all you need to do is
                 apply.
               </Question>

@@ -19,9 +19,9 @@ const SEO = ({ description, title, lang, image }) => (
 
 SEO.defaultProps = {
   lang: "en",
-  meta: ["hackathon", "Canada", "McGill", "Mentorship", "HackMcGill", "McHacks", "McHacks 9"],
+  meta: ["hackathon", "Canada", "McGill", "Mentorship", "HackMcGill", "McHacks", "McHacks 10"],
   description:
-    "Canada’s original university hackathon. 36 hour long event of innovation, coding & mentorship happening January 21st - 23rd at McGill University",
+    "Canada’s original university hackathon. 24 hour long event of innovation, coding & mentorship happening January 21st - 23rd at McGill University",
   title: "McHacks",
 }
 
