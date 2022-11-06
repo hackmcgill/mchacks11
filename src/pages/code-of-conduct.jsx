@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, {useRef, useState} from "react"
 
 import SEO from "../components/SEO/SEO"
 import Nav from "../components/Nav/Nav"
