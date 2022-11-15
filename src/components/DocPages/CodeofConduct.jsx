@@ -44,7 +44,7 @@ const CodeOfConduct = () => (
           in public spaces; deliberate intimidation; stalking, following,
           harassing; photography or video recording someone without their
           consent; sustained disruption of talks or other events; inappropriate
-          virtual/online contact; and unwelcome sexual attention.
+          contact; and unwelcome sexual attention.
           <br></br>
           <br></br>
           Participants exhibiting any of these harmful behaviours will be asked
