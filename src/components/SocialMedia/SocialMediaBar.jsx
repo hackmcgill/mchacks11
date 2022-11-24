@@ -1,6 +1,7 @@
 import React from "react"
 import Container from "./ScoialMediaBarContainer"
 
+import Devpost from "../../assets/images/logos/devpost-logo.svg"
 import Facebook from "../../assets/images/logos/fb-logo.svg"
 import Instagram from "../../assets/images/logos/ig-logo.svg"
 import Twitter from "../../assets/images/logos/twitter-logo.svg"
@@ -8,6 +9,15 @@ import GitHub from "../../assets/images/logos/github-logo.svg"
 
 const SocialMediaBar = () => (
   <Container>
+    <div className="SocialMediaBar__icon">
+      <a
+        href="https://www.devpost.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={Devpost} alt="Devpost" />
+      </a>
+    </div>
     <div className="SocialMediaBar__icon">
       <a
         href="https://www.facebook.com/mcgillhacks/"
