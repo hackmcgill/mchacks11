@@ -3,7 +3,6 @@ import React, { useState } from "react"
 import SEO from "../components/SEO/SEO"
 import LiveNav from "../components/Live/LiveNav"
 import Schedule from "../components/Schedule/Schedule"
-import Maps from "../components/Maps/Maps"
 import Info from "../components/Live/Info"
 import Resources from "../components/Live/Resources"
 

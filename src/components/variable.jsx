@@ -40,6 +40,8 @@ export const faqBlue2 = "#A9DEFE"
 
 // mchacks 10 colour palette
 export const lightRed = "#F2463A"
+export const offWhite = "#D9D9D9"
+export const newBlue = "#02365E"
 export const hackBeige = "#FFF7DC"
 export const skyBlue = "#0A689E"
 export const hackText = "#02365E"
