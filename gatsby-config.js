@@ -1,3 +1,5 @@
+require("dotenv")
+
 module.exports = {
   siteMetadata: {
     title: `McHacks`,
@@ -9,10 +11,35 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-source-google-spreadsheet",
+      options: {
+        // The `spreadsheetId` is required, it is found in the url of your document:
+        // https://docs.google.com/spreadsheets/d/<spreadsheetId>/edit#gid=0
+        spreadsheetId: process.env.PEOPLE_GOOGLE_SPREADSHEET_IDENTIFIER,
+
+        // Do not change. Unless data needs to be pulled from a specific sheet.
+        typePrefix: "GoogleSpreadsheet",
+
+        // Google Service Account
+        credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS),
+
+        // Default
+        filterNode: () => true,
+        mapNode: node => node,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `individualData`,
+        path: `${__dirname}/src/components/Carousel`,
       },
     },
     `gatsby-transformer-sharp`,

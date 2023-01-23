@@ -20,6 +20,7 @@ const Footer = () => (
         Code of Conduct
       </PageLink>
       <PageLink href="/privacy">Privacy Policy</PageLink>
+      <PageLink href="/discord-guide">Discord Guide</PageLink>
       {/* TODO
         <PageLink>
           Press Kit
