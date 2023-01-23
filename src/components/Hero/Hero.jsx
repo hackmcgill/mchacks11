@@ -45,7 +45,8 @@ const Hero = () => (
           <ArrowStyles src={ArrowImg} style={{ left: 25 }} />
         </div> */}
         {/* <Button onClick={Live}>Live Site →</Button> */}
-        <Button onClick={apply}>Apply Now →</Button>
+        {/* <Button onClick={apply}>Apply Now →</Button> */}
+        <Button onClick={apply}>Application Dashboard →</Button>
         <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
         <div className="hero__email">
           <SignUpForm />
