@@ -1,16 +1,14 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-export const Content = styled.div`
-  display: flex;
-  padding: 2rem 1rem;
-  max-width: 1000px;
-  margin: auto;
-  margin-bottom: 5rem;
+export const Content = styled.section`
+  margin-bottom: 16rem;
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    flex-direction: row;
-    padding: 4rem 2rem;
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: ${styleVars.faqBlue1};
+    margin-bottom: 6rem;
   }
 `
 
