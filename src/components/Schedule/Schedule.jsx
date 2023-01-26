@@ -1,3 +1,4 @@
+import { useStaticQuery } from "gatsby"
 import React, { useState } from "react"
 
 import Sticky from "react-stickynode"
@@ -5,16 +6,33 @@ import Sticky from "react-stickynode"
 import Container from "./Container"
 import Event from "./Event"
 
-import events from "./events"
-
 const Schedule = ({ visible }) => {
-  const [day, _setDay] = useState(3)
+  const [day, _setDay] = useState(1)
   const setDay = newDay => {
     if (newDay !== day) {
       _setDay(newDay)
       window.scrollTo(0, 0)
     }
   }
+
+  const { allGoogleSpreadsheetSchedule: { edges } } = useStaticQuery(graphql`
+  query {
+      allGoogleSpreadsheetSchedule {
+          edges {
+              node {
+                  day 
+                  name
+                  type
+                  startTime
+                  endTime
+                  description 
+                  company
+                  prize
+              }
+          }
+      }
+  }
+`)
 
   return (
     <Container className={!visible ? "hidden" : ""}>
@@ -29,7 +47,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            Friday, Jan. 21
+            Saturday, Jan. 28
           </div>
           <div
             className={"DayTab " + (day === 2 ? "active" : "")}
@@ -38,25 +56,17 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            Saturday, Jan. 22
-          </div>
-          <div
-            className={"DayTab " + (day === 3 ? "active" : "")}
-            onClick={() => setDay(3)}
-            onKeyDown={() => setDay(3)}
-            role="button"
-            tabIndex={0}
-          >
-            Sunday, Jan. 23
+            Sunday, Jan. 29
           </div>
         </div>
       </Sticky>
 
       <div className="Events">
-        {events
-          .filter(e => e.day === day)
-          .map((e, i) => (
-            <Event key={i} {...e} />
+        {edges
+          .map(({ node }) => node)
+          .filter(event => event.day == day)
+          .map((event, index) => (
+            <Event key={index} {...event} />
           ))}
       </div>
     </Container>

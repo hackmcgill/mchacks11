@@ -16,3 +16,37 @@ exports.createPages = ({ graphql, actions }) => {
     isPermanent: true,
   })
 }
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions
+  const typeDefs = [
+    schema.buildObjectType({
+      name: "GoogleSpreadsheetSchedule",
+      fields: {
+        startTime: {
+          type: "String!",
+          resolve: source => (source.startTime == null ? "" : source.startTime),
+        },
+        endTime: {
+          type: "String!",
+          resolve: source => (source.endTime == null ? "" : source.endTime),
+        },
+        description: {
+          type: "String!",
+          resolve: source =>
+            source.description == null ? "" : source.description,
+        },
+        company: {
+          type: "String!",
+          resolve: source => (source.company == null ? "" : source.company),
+        },
+        prize: {
+          type: "String!",
+          resolve: source => (source.prize == null ? "" : source.prize),
+        },
+      },
+      interfaces: ["Node"],
+    }),
+  ]
+  createTypes(typeDefs)
+}
