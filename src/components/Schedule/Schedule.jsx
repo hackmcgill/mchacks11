@@ -1,4 +1,4 @@
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import React, { useState } from "react"
 
 import Sticky from "react-stickynode"
@@ -35,8 +35,6 @@ const Schedule = ({ visible }) => {
       }
     }
   `)
-
-  console.log(edges);
 
   return (
     <Container className={!visible ? "hidden" : ""}>
