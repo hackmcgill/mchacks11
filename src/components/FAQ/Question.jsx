@@ -12,7 +12,7 @@ const Question = ({ question, expanded, onClickToggle, children }) => {
       role="button"
       tabIndex={0}
     >
-      <div class="questionRow">
+      <div className="questionRow">
         <div className="question">{question}</div>
         <div className="spacer"></div>
         <div className="expandButton">

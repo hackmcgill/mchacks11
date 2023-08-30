@@ -5,8 +5,8 @@ import * as styleVars from "../variable"
 
 import "./mailchimp.scss"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const ArrowButton = styled.button`
   background-color: ${styleVars.lightRed};
@@ -91,19 +91,19 @@ const SignUpForm = () => (
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
-      class="validate"
+      className="validate"
       target="_blank"
       rel="noopener noreferrer"
-      novalidate
+      noValidate
     >
       <div id="mc_embed_signup_scroll">
-        <div class="mc-field-group">
-          <div class="mc-input-wrapper">
+        <div className="mc-field-group">
+          <div className="mc-input-wrapper">
             <input
               id="mce-EMAIL"
               type="email"
               name="EMAIL"
-              class="required email"
+              className="required email"
               placeholder="your email here"
             />
             <MceEmbeddedSubscribe>
@@ -114,12 +114,12 @@ const SignUpForm = () => (
           </div>
 
           <div
-            class="response"
+            className="response"
             id="mce-error-response"
             css={{ display: "none" }}
           ></div>
           <div
-            class="response"
+            className="response"
             id="mce-success-response"
             css={{ display: "none" }}
           ></div>
@@ -134,8 +134,9 @@ const SignUpForm = () => (
           <input
             type="text"
             name="b_daca896c9229eac78a0cc3810_a5a34f6561"
-            tabindex="-1"
+            tabIndex="-1"
             value=""
+            readOnly
           />
         </div>
       </div>

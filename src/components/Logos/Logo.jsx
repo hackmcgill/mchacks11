@@ -1,46 +1,48 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
 const StyledLogo = styled.section`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 1em 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1em 4rem;
 
-    a {
-        max-width: 100%;
-        max-height: 100%;
-    }
+  a {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-    img {
-      max-width: 100%;
-      max-height: 100%;
-      transition: 1s;
-    
-      &:hover {
-        transform: scale(1.1);
-      }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: 1s;
+
+    &:hover {
+      transform: scale(1.1);
     }
+  }
 `
 
 export const Logo = ({ tier, link, image, alt }) => {
-  const content = (<Content link={link} image={image} alt={alt} />)
-  
+  const content = <Content link={link} image={image} alt={alt} />
+
   switch (tier) {
-    case 'Tera':
+    case "Tera":
       return <TeraLogo children={content} />
-    case 'Giga':
+    case "Giga":
       return <GigaLogo children={content} />
-    case 'Mega':
+    case "Mega":
       return <MegaLogo children={content} />
-    case 'Kilo':
+    case "Kilo":
       return <KiloLogo children={content} />
-    case 'Byte':
+    case "Byte":
       return <ByteLogo children={content} />
-    case 'In Kind':
+    case "In Kind":
       return <InKindLogo children={content} />
+    default:
+      return null
   }
 }
 
@@ -100,7 +102,6 @@ const KiloLogo = styled(StyledLogo)`
     }
   }
 `
-
 
 const ByteLogo = styled(StyledLogo)`
   flex-basis: 18%;

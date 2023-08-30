@@ -19,10 +19,44 @@ exports.createPages = ({ graphql, actions }) => {
 
 exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions
+
+  const buildPersonType = name => {
+    return schema.buildObjectType({
+      name,
+      fields: {
+        name: {
+          type: "String!",
+        },
+        position: {
+          type: "String",
+        },
+        company: {
+          type: "String",
+        },
+        imageLink: {
+          type: "String",
+        },
+      },
+      interfaces: ["Node"],
+    })
+  }
+
   const typeDefs = [
+    buildPersonType("GoogleSpreadsheetSpeakers"),
+    buildPersonType("GoogleSpreadsheetRecruiters"),
+    buildPersonType("GoogleSpreadsheetJudges"),
     schema.buildObjectType({
       name: "GoogleSpreadsheetSchedule",
       fields: {
+        day: {
+          type: "Int!",
+        },
+        name: {
+          type: "String!",
+        },
+        type: {
+          type: "String!",
+        },
         startTime: {
           type: "String!",
           resolve: source => (source.startTime == null ? "" : source.startTime),
@@ -43,6 +77,25 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         prize: {
           type: "String!",
           resolve: source => (source.prize == null ? "" : source.prize),
+        },
+      },
+      interfaces: ["Node"],
+    }),
+    schema.buildObjectType({
+      name: "GoogleSpreadsheetSponsors",
+      fields: {
+        tier: {
+          type: "String!",
+        },
+        link: {
+          type: "String!",
+        },
+        image: {
+          type: "String!",
+        },
+        alt: {
+          type: "String!",
+          resolve: source => (source.alt == null ? "" : source.alt),
         },
       },
       interfaces: ["Node"],

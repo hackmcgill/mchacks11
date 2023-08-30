@@ -1,5 +1,5 @@
-import React from "react"
 import PropTypes from "prop-types"
+import React from "react"
 import Helmet from "react-helmet"
 
 import bannerImage from "../../assets/images/banner.png"
@@ -19,7 +19,15 @@ const SEO = ({ description, title, lang, image }) => (
 
 SEO.defaultProps = {
   lang: "en",
-  meta: ["hackathon", "Canada", "McGill", "Mentorship", "HackMcGill", "McHacks", "McHacks 10"],
+  meta: [
+    "hackathon",
+    "Canada",
+    "McGill",
+    "Mentorship",
+    "HackMcGill",
+    "McHacks",
+    "McHacks 10",
+  ],
   description:
     "Canada’s original university hackathon. 24 hour long event of innovation, coding & mentorship happening January 21st - 23rd at McGill University",
   title: "McHacks",
@@ -28,7 +36,7 @@ SEO.defaultProps = {
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
+  meta: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
 }
 

@@ -15,24 +15,28 @@ const Schedule = ({ visible }) => {
     }
   }
 
-  const { allGoogleSpreadsheetSchedule: { edges } } = useStaticQuery(graphql`
-  query {
+  const {
+    allGoogleSpreadsheetSchedule: { edges },
+  } = useStaticQuery(graphql`
+    query {
       allGoogleSpreadsheetSchedule {
-          edges {
-              node {
-                  day 
-                  name
-                  type
-                  startTime
-                  endTime
-                  description 
-                  company
-                  prize
-              }
+        edges {
+          node {
+            day
+            name
+            type
+            startTime
+            endTime
+            description
+            company
+            prize
           }
+        }
       }
-  }
-`)
+    }
+  `)
+
+  console.log(edges);
 
   return (
     <Container className={!visible ? "hidden" : ""}>
@@ -47,7 +51,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            Saturday, Jan. 28
+            Saturday, Jan. 27
           </div>
           <div
             className={"DayTab " + (day === 2 ? "active" : "")}
@@ -56,7 +60,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            Sunday, Jan. 29
+            Sunday, Jan. 28
           </div>
         </div>
       </Sticky>
@@ -64,7 +68,7 @@ const Schedule = ({ visible }) => {
       <div className="Events">
         {edges
           .map(({ node }) => node)
-          .filter(event => event.day == day)
+          .filter(event => event.day === day)
           .map((event, index) => (
             <Event key={index} {...event} />
           ))}
