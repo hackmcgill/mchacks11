@@ -13,7 +13,7 @@ import NavLink from "./NavLink"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
-import MLHBanner from "../../assets/images/mlh-trust-badge-2023-white.svg"
+import MLHBanner from "../../assets/images/mlh-trust-badge-2024-white.svg"
 
 const Nav = ({
   scrollToAbout,
@@ -52,9 +52,9 @@ const Nav = ({
         </NavLink>
       ) : null}
       
-      {/* <NavLink href="https://app.mchacks.ca" mobile={mobile}>
+      <NavLink href="https://app.mchacks.ca" mobile={mobile}>
         Apply
-      </NavLink> */}
+      </NavLink>
     </>
   )
   return (
@@ -76,10 +76,10 @@ const Nav = ({
             <SocialMediaBar />
           </div>
           <div className="Nav__mlh-banner">
-            <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white">
+            <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white">
               <img
                 src={MLHBanner}
-                alt="Major League Hacking 2023 Hackathon Season"
+                alt="Major League Hacking 2024 Hackathon Season"
               />
             </a>
           </div>
