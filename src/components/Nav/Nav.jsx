@@ -52,9 +52,9 @@ const Nav = ({
         </NavLink>
       ) : null}
       
-      <NavLink href="https://app.mchacks.ca" mobile={mobile}>
+      {/* <NavLink href="https://app.mchacks.ca" mobile={mobile}>
         Apply
-      </NavLink>
+      </NavLink> */}
     </>
   )
   return (
