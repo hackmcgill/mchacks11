@@ -5,7 +5,7 @@ export const Links = styled.div`
   padding: 1.2rem 0;
   align-items: center;
   position: fixed;
-  top: 26px;
+  top: 25px;
   left: 140px;
   display: flex;
 

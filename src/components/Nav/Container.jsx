@@ -3,7 +3,7 @@ import * as styleVars from "../variable"
 
 export const Container = styled.nav`
   z-index: 200;
-  height: 110px;
+  height: 100px;
   background-color: transparent;
   position: fixed;
   top: 0;
