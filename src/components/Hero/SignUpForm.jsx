@@ -50,39 +50,10 @@ export const MceEmbeddedSubscribe = styled.div`
   position: absolute;
   top: 0;
   right: 0;
-  margin-left: 74px;
-  height: 36px;
-  padding-left: 0px;
-
-  @media only screen and (min-width: 767px) {
-    left: 400px;
-    right: inherit;
-  }
 `
 
 export const McInputWrapper = styled.div`
   position: relative;
-`
-
-export const InputSignUp = styled.input.attrs({
-  type: "submit",
-  value: "Submit",
-})`
-  line-height: 24px !important;
-  outline: 0;
-  color: ${styleVars.hackGold};
-  width: 152px !important;
-  height: 54px !important;
-  padding: 4px 12px !important; /* aligns input text in element */
-  background-color: transparent !important;
-  border-color: transparent !important;
-  text-align: center;
-  text-transform: lowercase;
-  letter-spacing: normal !important;
-  display: block;
-  margin: 0 auto;
-  margin-top: 16px;
-  float: center;
 `
 
 const SignUpForm = () => (

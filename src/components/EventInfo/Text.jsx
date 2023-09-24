@@ -21,7 +21,7 @@ const Text = styled.div`
     margin-bottom: 16px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
     padding: 0;

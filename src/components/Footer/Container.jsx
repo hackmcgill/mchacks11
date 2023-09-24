@@ -12,6 +12,14 @@ export const Container = styled.footer`
   z-index: 2;
   height: 80px;
   margin-top: 0;
+  padding: 20px;
+  gap: 32px;
+
+  @media only screen and (max-width: ${styleVars.xsUp}) {
+    .footer__social-links {
+      display: none;
+    }
+  }
 `
 
 export default Container

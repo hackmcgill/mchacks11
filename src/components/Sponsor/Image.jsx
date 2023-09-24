@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
 
 export const Image = styled.img`
   object-fit: contain;
@@ -6,11 +7,7 @@ export const Image = styled.img`
   height: 336px;
   background-color: lightgrey;
 
-  @media only screen and (max-width: 1345px) {
-    width: 400px;
-  }
-
-  @media only screen and (max-width: 1118px) {
+  @media only screen and (max-width: ${styleVars.mdUp}) {
     display: none;
   }
 `

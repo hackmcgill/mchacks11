@@ -6,8 +6,8 @@ export const Links = styled.div`
   align-items: center;
   position: fixed;
   top: 26px;
-  left: 160px;
-  display: none;
+  left: 140px;
+  display: flex;
 
   .Nav__socials {
     position: fixed;
@@ -32,8 +32,8 @@ export const Links = styled.div`
     }
   }
 
-  @media only screen and (min-width: ${styleVars.smUp}) {
-    display: flex;
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    display: none;
   }
 `
 

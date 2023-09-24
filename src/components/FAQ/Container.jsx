@@ -79,7 +79,7 @@ const Container = styled.section`
     overflow: hidden;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: ${styleVars.smUp}) {
     height: 2000px;
   }
 

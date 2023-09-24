@@ -56,6 +56,7 @@ export const hackGold = "#FCB427";
 export const globalColorPrimary = hackWhite
 
 // screen breakpoint sizes
+export const xsUp = "425px"
 export const smUp = "768px"
 export const mdUp = "992px"
 export const lgUp = "1200px"

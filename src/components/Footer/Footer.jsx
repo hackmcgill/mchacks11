@@ -28,7 +28,7 @@ const Footer = () => (
       </PageLink> */}
     </Links>
 
-    <Links>
+    <Links className="footer__social-links">
       <SocialLink
         href="mailto:contact@mchacks.ca?Subject=Hello!"
         target="_blank"
