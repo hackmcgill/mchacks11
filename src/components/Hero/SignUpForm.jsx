@@ -9,7 +9,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const ArrowButton = styled.button`
-  background-color: ${styleVars.lightRed};
+  background-color: ${styleVars.hackGold};
   color: ${styleVars.hackWhite};
   border-radius: 50%;
   border: none;
@@ -21,7 +21,8 @@ export const ArrowButton = styled.button`
   margin-left: -8px;
 
   &:hover {
-    background-color: ${styleVars.colorHackRed};
+    color: ${styleVars.hackGold};
+    background-color: transparent;
   }
 `
 
@@ -69,7 +70,7 @@ export const InputSignUp = styled.input.attrs({
 })`
   line-height: 24px !important;
   outline: 0;
-  color: ${styleVars.colorHackRedMed};
+  color: ${styleVars.hackGold};
   width: 152px !important;
   height: 54px !important;
   padding: 4px 12px !important; /* aligns input text in element */

@@ -6,21 +6,18 @@ export const Button = styled.button`
   font-weight: 400;
   font-size: 18px;
   text-transform: none;
-  color: ${styleVars.darkBlue};
-  background-color: ${styleVars.hackWhite};
+  color: ${styleVars.hackWhite};
+  background-color: ${styleVars.hackGold};
   border-radius: 36px;
   border: none;
-  transition: all 0.25s ease-in-out;
-  box-shadow: 2px 4px 16px 0 ${styleVars.darkSecondaryBlue}66;
+  transition: all 0.3s ease;
+  box-shadow: 2px 4px 16px 0 ${styleVars.hackGold}66;
   padding-top: 14px;
   padding-bottom: 15px;
   padding-left: 27px;
   padding-right: 27px;
-  //   height: 45px;
-  //   width: 175px;
   display: block;
   margin: auto;
-  margin-bottom: 20px;
 
   &:hover {
     background-color: ${styleVars.hackWhite}ee;

@@ -1,5 +1,5 @@
 import React from "react"
-import Container from "./ScoialMediaBarContainer"
+import Container from "./SocialMediaBarContainer"
 
 import Devpost from "../../assets/images/logos/devpost-logo.svg"
 import Facebook from "../../assets/images/logos/fb-logo.svg"

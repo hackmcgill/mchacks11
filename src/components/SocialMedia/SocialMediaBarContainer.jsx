@@ -5,10 +5,10 @@ export const Container = styled.div`
 
   .SocialMediaBar__icon {
     margin-left: 14px;
-    transition: filter 0.2s ease-in;
+    transition: filter 0.3s ease;
 
     &:hover {
-      filter: invert(16%) sepia(24%) saturate(6851%) hue-rotate(321deg) brightness(119%) contrast(117%);
+      filter: brightness(0) invert(1);
     }
 
     > a {

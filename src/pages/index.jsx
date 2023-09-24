@@ -27,13 +27,13 @@ const IndexPage = () => {
   const faqRef = useRef(null)
 
   return (
-    // Adding CSS background here just for testing font color and stuff... Will be removed in final CR
-    <div css="background: linear-gradient(180deg, #FFF7DC 43.31%, #D9FFDE 58.18%);">
+    <div>
       <SEO />
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
         scrollToFaq={() => scrollTo(faqRef)}
+        darkBackground
       />
       <Hero />
       <About scrollRef={aboutRef} />

@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    background-color: #F8F8F8;
 }
 
 p {

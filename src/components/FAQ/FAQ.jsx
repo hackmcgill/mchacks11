@@ -11,7 +11,6 @@ import Image from "./Image"
 const FAQ = ({ scrollRef }) => (
   <>
     <Container ref={scrollRef}>
-      <Image src={Confetti1} className="faq__confetti_top" />
       <Window>
         <div className="content">
           <h2>Any questions?</h2>
@@ -79,7 +78,6 @@ const FAQ = ({ scrollRef }) => (
           </div>
         </div>
       </Window>
-      <Image src={Confetti2} className="faq__confetti_bottom" />
     </Container>
   </>
 )

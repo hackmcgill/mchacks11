@@ -46,6 +46,12 @@ export const hackBeige = "#FFF7DC"
 export const skyBlue = "#0A689E"
 export const hackText = "#02365E"
 
+// mchacks 11 colour palette
+export const primary = "#1C1C1C";
+export const secondary = "#5E5E5E";
+export const background = "#F8F8F8";
+export const hackGold = "#FCB427";
+
 // global colors
 export const globalColorPrimary = hackWhite
 

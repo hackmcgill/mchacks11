@@ -3,6 +3,7 @@ import * as styleVars from "../variable"
 
 export const Container = styled.footer`
   padding: 2rem 0;
+  background-color: ${styleVars.background};
   border-top: 2px solid ${styleVars.lightSecondaryBlue};
   display: flex;
   width: 100%;
