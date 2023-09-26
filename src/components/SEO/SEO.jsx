@@ -26,7 +26,7 @@ SEO.defaultProps = {
     "Mentorship",
     "HackMcGill",
     "McHacks",
-    "McHacks 10",
+    "McHacks 11",
   ],
   description:
     "Canada’s original university hackathon. 24 hour long event of innovation, coding & mentorship happening January 21st - 23rd at McGill University",

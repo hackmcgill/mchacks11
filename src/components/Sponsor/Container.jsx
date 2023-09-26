@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import * as styleVars from "../variable"
 
 export const Container = styled.section`
-  background-color: ${styleVars.hackBeige};
+  padding: 0 40px 320px 40px;
 `
 
 export default Container

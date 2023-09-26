@@ -5,7 +5,7 @@ export const MobileMenu = {
     position: "fixed",
     width: "30px",
     height: "25px",
-    top: "34px",
+    top: "37px",
     right: "30px",
   },
   bmBurgerBars: {

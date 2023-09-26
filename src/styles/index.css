@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    background-color: #F8F8F8;
 }
 
 p {
@@ -53,9 +54,13 @@ button {
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
+.bm-burger-button, .bm-menu-wrap {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
     .bm-burger-button, .bm-menu-wrap {
-        display: none;
+        display: block;
     }
 }
 

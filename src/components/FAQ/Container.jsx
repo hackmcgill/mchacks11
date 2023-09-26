@@ -2,19 +2,9 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 const Container = styled.section`
-  background-image: linear-gradient(#FFF7DC 75%, #E6FCDD);
   position: relative;
-  height: 1500px;
-
-  .faq__confetti_top {
-    right: 30px;
-    top: -40px;
-  }
-
-  .faq__confetti_bottom {
-    left: -40px;
-    bottom: 20px;
-  }
+  height: 1360px;
+  padding: 0 14px 0 14px;
 
   .QuestionBox {
     border: 1px solid ${styleVars.faqBlue2};
@@ -90,7 +80,7 @@ const Container = styled.section`
     overflow: hidden;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: ${styleVars.smUp}) {
     height: 2000px;
   }
 

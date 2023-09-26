@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-  margin-bottom: 12rem;
+  padding: 0 14px 0 14px;
 `
 
 export default Container

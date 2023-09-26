@@ -9,7 +9,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const ArrowButton = styled.button`
-  background-color: ${styleVars.lightRed};
+  background-color: ${styleVars.hackGold};
   color: ${styleVars.hackWhite};
   border-radius: 50%;
   border: none;
@@ -21,7 +21,8 @@ export const ArrowButton = styled.button`
   margin-left: -8px;
 
   &:hover {
-    background-color: ${styleVars.colorHackRed};
+    color: ${styleVars.hackGold};
+    background-color: transparent;
   }
 `
 
@@ -49,39 +50,10 @@ export const MceEmbeddedSubscribe = styled.div`
   position: absolute;
   top: 0;
   right: 0;
-  margin-left: 74px;
-  height: 36px;
-  padding-left: 0px;
-
-  @media only screen and (min-width: 767px) {
-    left: 400px;
-    right: inherit;
-  }
 `
 
 export const McInputWrapper = styled.div`
   position: relative;
-`
-
-export const InputSignUp = styled.input.attrs({
-  type: "submit",
-  value: "Submit",
-})`
-  line-height: 24px !important;
-  outline: 0;
-  color: ${styleVars.colorHackRedMed};
-  width: 152px !important;
-  height: 54px !important;
-  padding: 4px 12px !important; /* aligns input text in element */
-  background-color: transparent !important;
-  border-color: transparent !important;
-  text-align: center;
-  text-transform: lowercase;
-  letter-spacing: normal !important;
-  display: block;
-  margin: 0 auto;
-  margin-top: 16px;
-  float: center;
 `
 
 const SignUpForm = () => (

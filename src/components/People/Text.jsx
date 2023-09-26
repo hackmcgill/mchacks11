@@ -3,7 +3,7 @@ import { newBlue } from "../variable"
 
 export const Text = styled.figcaption`
     width: 70%;
-    font-family: 'Brown';
+    font-family: 'Brown', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

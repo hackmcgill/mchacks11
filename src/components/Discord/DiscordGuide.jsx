@@ -39,7 +39,7 @@ const DiscordGuide = () => {
           <h2>What is a discord server?</h2>
           <ul>
             <li>
-              An invite-only home for the community - in our case, McHacks 10! If
+              An invite-only home for the community - in our case, McHacks 11! If
               you are a slack user, you can think of it like a Slack workspace.
               It is a place where you can talk, ask for help, get announcements,
               hang out, and have fun!
@@ -99,7 +99,7 @@ const DiscordGuide = () => {
               minutes. Click the link and verify your Discord account
             </li>
           </ol>
-          <h2>How do I join the McHacks 10 Discord server?</h2>
+          <h2>How do I join the McHacks 11 Discord server?</h2>
           <p>
             To join a server, click the "+" icon at the very bottom of the
             server list.

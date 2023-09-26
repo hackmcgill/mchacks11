@@ -1,6 +1,6 @@
-# [McHacks 10](https://2023.mchacks.ca)
+# [McHacks 11](https://2023.mchacks.ca)
 
-This repository contains the code behind the static site of McHacks 10.
+This repository contains the code behind the static site of McHacks 11.
 
 ## Setup
 

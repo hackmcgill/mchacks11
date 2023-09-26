@@ -1,7 +1,19 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
 
 export const Links = styled.div`
-  padding: 1.2rem 2.4rem;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    gap: 16px;
+  }
+
+  @media only screen and (max-width: ${styleVars.xsUp}) {
+    flex-grow: 1;
+  }
 `
 
 export default Links

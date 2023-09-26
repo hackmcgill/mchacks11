@@ -20,10 +20,10 @@ const About = ({ scrollRef }) => (
         <p>
           Whether you're writing your first line of code, playing around with
           APIs, or building the next blockchain, McHacks is the place for you.
-          We'll see you this January at the 10th annual rendition of Canada's original collegiate hackathon!
+          We'll see you this January at the 11th annual rendition of Canada's original collegiate hackathon!
         </p>
       </Text>
-      <Image src={AboutImg} />
+      <Image src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" />
     </Content>
   </Container>
 )

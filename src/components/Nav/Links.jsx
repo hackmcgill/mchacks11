@@ -5,9 +5,9 @@ export const Links = styled.div`
   padding: 1.2rem 0;
   align-items: center;
   position: fixed;
-  top: 2.1rem;
-  left: 13.6rem;
-  display: none;
+  top: 25px;
+  left: 140px;
+  display: flex;
 
   .Nav__socials {
     position: fixed;
@@ -26,10 +26,14 @@ export const Links = styled.div`
     transition: opacity 0.15s ease-in-out;
     opacity: ${props => (props.hasBorder ? "0" : "1")};
     z-index: 0;
+
+    img {
+      filter: drop-shadow(2px 4px 2px rgb(0 0 0 / 0.15));
+    }
   }
 
-  @media only screen and (min-width: ${styleVars.smUp}) {
-    display: flex;
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    display: none;
   }
 `
 
