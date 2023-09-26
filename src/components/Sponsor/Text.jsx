@@ -11,14 +11,14 @@ export const Text = styled.div`
   padding: 60px;
 
   h2 {
-    color: ${styleVars.hackText};
+    color: ${styleVars.primary};
     font-size: 36px;
     font-weight: bold;
     margin-top: 0;
   }
 
   p {
-    color: ${styleVars.hackText};
+    color: ${styleVars.primary};
     margin-top: 0;
   }
 

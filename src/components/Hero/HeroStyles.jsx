@@ -73,8 +73,15 @@ export const HeroStyles = styled.section`
     }
 
     .hero__grid__signup {
+      position: relative;
       grid-column: 2 / span 2;
       grid-row: 3;
+
+      .hero__martlet {
+        position: absolute;
+        top: -36px;
+        right: -62px;
+      }
     }
 
     .hero__grid__text {
