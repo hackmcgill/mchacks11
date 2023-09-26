@@ -4,9 +4,6 @@ import Container from "./Container"
 import QuestionGroup from "./QuestionGroup"
 import Question from "./Question"
 import Window from "./Window"
-import Confetti1 from "../../assets/images/designs/confetti1.svg"
-import Confetti2 from "../../assets/images/designs/confetti2.svg"
-import Image from "./Image"
 
 const FAQ = ({ scrollRef }) => (
   <>

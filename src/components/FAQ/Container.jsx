@@ -4,6 +4,7 @@ import * as styleVars from "../variable"
 const Container = styled.section`
   position: relative;
   height: 1360px;
+  padding: 0 14px 0 14px;
 
   .QuestionBox {
     border: 1px solid ${styleVars.faqBlue2};

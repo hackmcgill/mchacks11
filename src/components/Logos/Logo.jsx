@@ -17,7 +17,7 @@ const StyledLogo = styled.section`
   img {
     max-width: 100%;
     max-height: 100%;
-    transition: 1s;
+    transition: 0.3s ease;
 
     &:hover {
       transform: scale(1.1);

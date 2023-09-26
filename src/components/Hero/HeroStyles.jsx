@@ -34,7 +34,8 @@ export const HeroStyles = styled.section`
     grid-template-columns: 243px 1fr 1fr;
     grid-template-rows: 1fr 60px 130px;
     gap: 28px;
-    max-width: 930px;
+    max-width: 1080px;
+    margin: 0 42px 0 42px;
 
     & > div {
       border: 2.5px solid ${styleVars.primary};
@@ -79,8 +80,8 @@ export const HeroStyles = styled.section`
 
       .hero__martlet {
         position: absolute;
-        top: -36px;
-        right: -62px;
+        top: -26px;
+        right: -42px;
       }
     }
 
@@ -89,8 +90,7 @@ export const HeroStyles = styled.section`
       font-weight: 400;
       text-align: center;
       color: ${styleVars.secondary};
-      margin-top: 0;
-      margin-bottom: 14px;
+      margin: 0 8px 14px 8px;
       font-family: "Brown", san-serif;
     }
 
@@ -108,9 +108,21 @@ export const HeroStyles = styled.section`
     display: none; /* Leave in h1 for SEO */
   }
  
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  @media only screen and (max-width: ${styleVars.mdUp}) {
     .hero__grid {
       max-width: 720px;
+
+      .hero__grid__text {
+        margin-bottom: 6px;
+      }
+
+      .hero__grid__signup {
+        .hero__martlet {
+          height: 70px;
+          top: -28px;
+          right: -38px;
+        }
+      }
     }
   }
 
@@ -141,10 +153,6 @@ export const HeroStyles = styled.section`
       .hero__grid__signup {
         grid-column: 1 / span 2;
         grid-row: 3;
-      }
-      
-      .hero__grid__text {
-        margin-bottom: 6px;
       }
     }
   }
