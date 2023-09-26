@@ -86,7 +86,7 @@ const CodeOfConduct = () => (
           As we are in the midst of a global pandemic and McHacks is online, we
           require that participants respect their
           municipal/state/provincial/federal COVID-19 guidelines. The organizers
-          of McHacks 10 will not be liable if participants break such rules.
+          of McHacks 11 will not be liable if participants break such rules.
           Every participant is liable for their own actions, words, comments,
           posts and online activities.
         </p>
