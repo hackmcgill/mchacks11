@@ -34,7 +34,7 @@ export const HeroStyles = styled.section`
     grid-template-columns: 243px 1fr 1fr;
     grid-template-rows: 1fr 60px 130px;
     gap: 28px;
-    max-width: 1080px;
+    max-width: 820px;
     margin: 0 42px 0 42px;
 
     & > div {
