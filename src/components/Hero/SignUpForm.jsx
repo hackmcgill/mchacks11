@@ -21,8 +21,7 @@ export const ArrowButton = styled.button`
   margin-left: -8px;
 
   &:hover {
-    color: ${styleVars.hackGold};
-    background-color: transparent;
+    background-color: ${styleVars.buttonHover};
   }
 `
 
