@@ -34,7 +34,7 @@ const Hero = () => (
         />
         <h1 className="hero__heading">McHacks</h1>
         <h2 className="hero__topsubheading">
-          McGill University · Jan 27-28, 2024 (Tentative)
+          McGill University · Jan 27-28, 2024
         </h2>
         {/* <Button onClick={apply}>Apply Now →</Button> */}
         {/* <Button onClick={apply}>Application Dashboard →</Button> */}
