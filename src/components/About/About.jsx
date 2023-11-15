@@ -23,7 +23,9 @@ const About = ({ scrollRef }) => (
           We'll see you this January at the 11th annual rendition of Canada's original collegiate hackathon!
         </p>
       </Text>
-      <Image src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" />
+      <div>
+        <Image src={AboutImg} />
+      </div>
     </Content>
   </Container>
 )

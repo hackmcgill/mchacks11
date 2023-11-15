@@ -15,7 +15,9 @@ const mailTo = () => {
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
     <Content>
-      <Image src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" />
+      <div>
+        <Image src={SponsorImg} />
+      </div>
       <Text>
         <h2>Interested in sponsoring McHacks?</h2>
         <p>

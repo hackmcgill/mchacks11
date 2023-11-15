@@ -18,8 +18,8 @@ const apply = () => {
 
 const Hero = () => (
   <HeroStyles>
-    <img className="hero__color-blur-1" src={HeroColorBlur1} />
-    <img className="hero__color-blur-2" src={HeroColorBlur2} />
+    <img className="hero__color-blur-1" src={HeroColorBlur1} alt="" />
+    <img className="hero__color-blur-2" src={HeroColorBlur2} alt="" />
     <div className="hero__wrapper">
       <h1 className="hero__heading">McHacks 11</h1>
       <div className="hero__grid">
@@ -29,7 +29,7 @@ const Hero = () => (
           alt="McHacks 11"
         />
         <div className="hero__grid__shapes">
-          <img src={HeroShapesImg} />
+          <img src={HeroShapesImg} alt="" />
         </div>
         <div className="hero__grid__location">
           <h2 className="hero__grid__subheading">McGill University</h2>
@@ -38,14 +38,14 @@ const Hero = () => (
           <h2 className="hero__grid__subheading">Jan 27-28, 2024</h2>
         </div>
         <div className="hero__grid__signup">
-          <img className="hero__martlet" src={Martlet} />
+          <img className="hero__martlet" src={Martlet} alt="" />
           <p className="hero__grid__text">
             Sign up for updates on McHacks. No spam, we promise.
           </p>
           <SignUpForm />
         </div>
       </div>
-      {/* <Button onClick={apply}>Apply Now →</Button> */}
+      <Button onClick={apply}>Apply Now →</Button>
       {/* <Button onClick={apply}>Application Dashboard →</Button> */}
       {/* <Button onClick={live}>Live Site →</Button> */}
     </div>

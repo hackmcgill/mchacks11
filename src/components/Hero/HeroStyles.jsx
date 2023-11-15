@@ -11,10 +11,10 @@ export const HeroStyles = styled.section`
     z-index: 1;
     text-align: center;
     width: 100%;
-    padding-top: 270px;
+    padding-top: 260px;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
   }
 
   .hero__color-blur-1, .hero__color-blur-2 {
