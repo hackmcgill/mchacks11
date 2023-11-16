@@ -9,11 +9,14 @@ const CodeOfConduct = () => (
     <Content>
       <Text>
         <h1>Code of Conduct</h1>
+        <p>
         McHacks aims to be a hackathon where all participants and volunteers
         feel welcome, included, respected and safe. All attendees–including
         sponsors, students, speakers, judges, volunteers, and organizers–are
         therefore required to abide by the following code of conduct at all
         times.
+        </p>
+        
         <h2>Summary</h2>
         <p>
           Our hackathon is dedicated to providing a harassment-free space for
