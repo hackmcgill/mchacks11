@@ -99,16 +99,7 @@ const CodeOfConduct = () => (
           <br></br>
           Please also don’t hesitate to contact any of the organizers or the
           security guard on duty at any time. You can get in direct touch with
-          the Co-Directors below:
-          <ul>
-            <li>
-              <b>Ashley Lau</b>: <a href="tel:438-969-6838">(438) 969-6838</a>{" "}
-            </li>
-            <li>
-              <b>Jenny Yu</b>: <a href="tel:905-621-6698">(905) 621-6698</a>
-            </li>
-          </ul>
-          You can also email us at&nbsp;
+          the Co-Directors at&nbsp;
           <a href="mailto:directors@mchacks.ca" target="_top">
             directors@mchacks.ca
           </a>
@@ -155,7 +146,7 @@ const CodeOfConduct = () => (
           any time.
           <br></br>
           <br></br>
-          Last modified on September 14, 2022.
+          Last modified on November 15, 2023.
         </p>
       </Text>
     </Content>
