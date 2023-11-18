@@ -14,6 +14,9 @@ const SEO = ({ description, title, lang, image }) => (
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffffff"></meta>
     <meta name="image" content={bannerImage} />
+    <meta property="og:title" content={title} />
+    <meta name="og:description" content={description} />
+    <meta name="og:image" content={bannerImage} />
   </Helmet>
 )
 
@@ -29,7 +32,7 @@ SEO.defaultProps = {
     "McHacks 11",
   ],
   description:
-    "Canada’s original university hackathon. 24 hour long event of innovation, coding & mentorship happening January 21st - 23rd at McGill University",
+    "Canada’s original university hackathon. 24 hour long event of innovation, coding & mentorship happening January 27th - 28th at McGill University",
   title: "McHacks",
 }
 
