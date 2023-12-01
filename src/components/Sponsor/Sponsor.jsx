@@ -6,6 +6,7 @@ import Image from "./Image"
 import Text from "./Text"
 import Button from "./Button"
 
+import ColorBlur4 from "../../assets/images/designs/blur-4.png"
 import SponsorImg from "../../assets/images/designs/sponsor.svg"
 
 const mailTo = () => {
@@ -14,6 +15,7 @@ const mailTo = () => {
 
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
+    <img className="color-blur-4" src={ColorBlur4} alt="" />
     <Content>
       <div>
         <Image src={SponsorImg} />

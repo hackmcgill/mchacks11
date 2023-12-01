@@ -3,12 +3,14 @@ import React from "react"
 import Container from "./Container"
 import Text from "./Text"
 import Image from "./Image"
+import ColorBlur3 from "../../assets/images/designs/blur-3.png"
 
 import AboutImg from "../../assets/images/designs/about.svg"
 import { Content } from "./Content"
 
 const About = ({ scrollRef }) => (
   <Container ref={scrollRef} style={{}}>
+    <img className="color-blur-3" src={ColorBlur3} alt="" />
     <Content>
       <Text>
         <h2>Dream. Develop. Deploy!</h2>

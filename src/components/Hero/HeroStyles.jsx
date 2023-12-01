@@ -165,6 +165,11 @@ export const HeroStyles = styled.section`
       top: 700px;
       width: 70%;
     }
+
+    .hero__color-blur-2 {
+      top: 900px;
+      width: 70%;
+    }
   }
 `
 
