@@ -36,7 +36,7 @@ const Container = styled.section`
       }
 
       .expandButton > img {
-        opacity: 30%;
+        opacity: 90%;
         position: relative;
         top: 0px;
         transition: opacity 0.3s ease, transform 0.3s ease;
@@ -44,7 +44,7 @@ const Container = styled.section`
     }
 
     .answer {
-      color: ${styleVars.hackBlack60};
+      color: ${styleVars.faqBlack};
       margin-top: 10px;
       font-size: 0.9em;
       display: none;
@@ -64,15 +64,8 @@ const Container = styled.section`
       }
 
       .question {
-        border-color: ${styleVars.hackWhite} !important;
+        color: ${styleVars.faqBlue3};
       }
-    }
-
-    &:hover {
-      .expandButton > img {
-        opacity: 90%;
-      }
-    }
   }
 
   @media only screen and (max-width: 1000px) {

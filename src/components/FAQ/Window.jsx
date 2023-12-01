@@ -26,11 +26,12 @@ export const Window = styled.div`
     color: ${styleVars.hackBlack};
     font-size: 36px;
     font-weight: 600;
+    padding-bottom: 10px;
   }
 
   .content {
     position: relative;
-    top: min(180px, calc(180 * var(--scaling-factor)));
+    top: min(154px, calc(154 * var(--scaling-factor)));
     left: min(20px, calc(20 * var(--scaling-factor)));
 
     height: calc(693 * var(--scaling-factor));
@@ -38,7 +39,7 @@ export const Window = styled.div`
     max-height: 693px;
     max-width: 1202px;
 
-    padding-top: 40px;
+    padding-top: 70px;
   }
 
   .questions {

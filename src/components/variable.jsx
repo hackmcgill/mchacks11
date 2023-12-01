@@ -52,6 +52,8 @@ export const secondary = "#5E5E5E";
 export const background = "#F8F8F8";
 export const hackGold = "#FCB427";
 export const buttonHover = "#D03E36";
+export const faqBlue3 = "#598EFB";
+export const faqBlack = "#4D4D4D";
 
 // global colors
 export const globalColorPrimary = hackWhite

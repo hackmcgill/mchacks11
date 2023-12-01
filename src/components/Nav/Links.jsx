@@ -6,7 +6,7 @@ export const Links = styled.div`
   align-items: center;
   position: fixed;
   top: 16px;
-  left: 140px;
+  left: 192px;
   display: flex;
 
   .Nav__socials {
