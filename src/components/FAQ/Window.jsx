@@ -12,9 +12,9 @@ export const Window = styled.div`
   top: 80px;
 
   width: calc(1271 * var(--scaling-factor));
-  height: calc(876 * var(--scaling-factor));
+  height: calc(1185 * var(--scaling-factor));
   max-width: 1271px;
-  max-height: 876px;
+  max-height: 1185px;
 
   text-align: center;
 
@@ -23,14 +23,14 @@ export const Window = styled.div`
   background-size: cover;
 
   h2 {
-    color: ${styleVars.faqBlue1};
+    color: ${styleVars.hackBlack};
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .content {
     position: relative;
-    top: min(154px, calc(154 * var(--scaling-factor)));
+    top: min(180px, calc(180 * var(--scaling-factor)));
     left: min(20px, calc(20 * var(--scaling-factor)));
 
     height: calc(693 * var(--scaling-factor));
@@ -41,15 +41,10 @@ export const Window = styled.div`
     padding-top: 40px;
   }
 
-  .grid {
-    display: grid;
-    width: 80%;
-    max-width: 750px;
+  .questions {
+    width: 40%;
     margin: auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    justify-content: center;
-    align-items: start;
+    max-width: 750px;
   }
 
   @media only screen and (max-width: 1400px) {
@@ -78,10 +73,11 @@ export const Window = styled.div`
       max-height: initial;
     }
 
-    .grid {
-      width: 90%;
+    .questions {
+      width: 60%;
       max-width: 750px;
     }
+
   }
 
   @media only screen and (max-width: 1000px) {
@@ -106,14 +102,9 @@ export const Window = styled.div`
       padding-left: 40px;
       padding-right: 40px;
     }
-    
-    .grid {
-      position: initial;
-      display: flex;
-      height: initial;
-      width: 100%;
-      flex-flow: column wrap;
-      align-content: center;
+
+    .questions {
+      width: 80%;
       max-width: 500px;
     }
 

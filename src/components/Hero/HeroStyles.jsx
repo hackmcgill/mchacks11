@@ -3,7 +3,6 @@ import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
   padding-bottom: 520px;
-  border-bottom: 4px solid ${styleVars.primary};
 
   .hero__wrapper {
     display: flex;

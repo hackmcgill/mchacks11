@@ -11,7 +11,7 @@ const FAQ = ({ scrollRef }) => (
       <Window>
         <div className="content">
           <h2>Any questions?</h2>
-          <div className="grid">
+          <div className="questions">
             <QuestionGroup>
               <Question question="What is a hackathon?">
                 A hackathon is a social coding event where programmers,
@@ -54,15 +54,6 @@ const FAQ = ({ scrollRef }) => (
 
               <Question question="How big can my team be?">
                 Teams can be up to four people.
-              </Question>
-
-              <Question question="How much does it cost?">
-                Nothing! Thanks to our amazing sponsors, McHacks is completely
-                free for all our hackers.
-              </Question>
-
-              <Question question="Will there be prizes?">
-                Yes! Prizes will be announced closer to McHacks.
               </Question>
 
               <Question question="I have more questions!">
