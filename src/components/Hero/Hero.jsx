@@ -20,7 +20,7 @@ const Hero = () => (
   <HeroStyles>
     <img className="hero__color-blur-1" src={HeroColorBlur1} alt="" />
     <img className="hero__color-blur-2" src={HeroColorBlur2} alt="" />
-    
+
     <div className="hero__wrapper">
       <h1 className="hero__heading">McHacks 11</h1>
       <div className="hero__grid">

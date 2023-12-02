@@ -24,9 +24,9 @@ const Sponsor = ({ scrollRef }) => (
         <h2>Interested in sponsoring McHacks?</h2>
         <p>
           This winter, the best and brightest students from around the world
-          will connect for 24 hours to shake the world of technology.
-          We want you to be a part of this incredible experience, and we need
-          your help to bring it to life!
+          will connect for 24 hours to shake the world of technology. We want
+          you to be a part of this incredible experience, and we need your help
+          to bring it to life!
         </p>
         <p>
           Spend a weekend with McHacks and witness tomorrow’s leaders using your

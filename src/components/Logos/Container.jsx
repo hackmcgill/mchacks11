@@ -32,7 +32,6 @@ export const Container = styled.section`
       top: -40px;
     }
   }
-
 `
 
 export default Container

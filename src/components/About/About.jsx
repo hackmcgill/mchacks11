@@ -16,13 +16,14 @@ const About = ({ scrollRef }) => (
         <h2>Dream. Develop. Deploy!</h2>
         <p>
           For 24 hours, over 500 of the boldest young minds across the globe
-          come together for a jam-packed online weekend of beginner-to-pro workshops,
-          networking, and epic hacking.
+          come together for a jam-packed online weekend of beginner-to-pro
+          workshops, networking, and epic hacking.
         </p>
         <p>
           Whether you're writing your first line of code, playing around with
           APIs, or building the next blockchain, McHacks is the place for you.
-          We'll see you this January at the 11th annual rendition of Canada's original collegiate hackathon!
+          We'll see you this January at the 11th annual rendition of Canada's
+          original collegiate hackathon!
         </p>
       </Text>
       <div>

@@ -16,7 +16,8 @@ export const HeroStyles = styled.section`
     gap: 60px;
   }
 
-  .hero__color-blur-1, .hero__color-blur-2 {
+  .hero__color-blur-1,
+  .hero__color-blur-2 {
     position: absolute;
     z-index: -1;
     width: 45%;
@@ -106,7 +107,7 @@ export const HeroStyles = styled.section`
   .hero__heading {
     display: none; /* Leave in h1 for SEO */
   }
- 
+
   @media only screen and (max-width: ${styleVars.mdUp}) {
     .hero__grid {
       max-width: 720px;
@@ -129,7 +130,7 @@ export const HeroStyles = styled.section`
     .hero__grid {
       max-width: 85%;
       grid-template-columns: 1fr 1fr;
-      
+
       .hero__heading-image {
         grid-column: 1 / span 2;
         width: 100%;
@@ -143,12 +144,12 @@ export const HeroStyles = styled.section`
         grid-column: 1;
         grid-row: 2;
       }
-  
+
       .hero__grid__date {
         grid-column: 2;
         grid-row: 2;
       }
-  
+
       .hero__grid__signup {
         grid-column: 1 / span 2;
         grid-row: 3;

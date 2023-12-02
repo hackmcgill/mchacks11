@@ -34,7 +34,7 @@ export const MobileMenu = {
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
-    top: '0',
+    top: "0",
   },
   bmMenu: {
     background: styleVars.hackBlack10,

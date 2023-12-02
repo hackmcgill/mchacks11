@@ -5,16 +5,16 @@ import WindowSvg from "../../assets/images/designs/faq-window.svg"
 import WindowSvgMid from "../../assets/images/designs/faq-window-mid.svg"
 import WindowSvgLong from "../../assets/images/designs/faq-window-long.svg"
 
-export const Window = styled.div`
+export const WindowStyles = styled.div`
   --scaling-factor: 1 / 1442 * 100vw;
   position: relative;
   margin: auto;
   top: 80px;
 
   width: calc(1271 * var(--scaling-factor));
-  height: calc(1185 * var(--scaling-factor));
+  height: calc(1172 * var(--scaling-factor));
   max-width: 1271px;
-  max-height: 1185px;
+  max-height: 1172px;
 
   text-align: center;
 
@@ -51,7 +51,7 @@ export const Window = styled.div`
   @media only screen and (max-width: 1400px) {
     background-image: url(${WindowSvgMid});
     width: calc(1271 * var(--scaling-factor));
-    height: calc(1032 * var(--scaling-factor));
+    height: calc(1315 * var(--scaling-factor));
     max-height: initial;
 
     .content {
@@ -64,8 +64,8 @@ export const Window = styled.div`
 
   @media only screen and (max-width: 1118px) {
     background-image: url(${WindowSvgLong});
-    width: calc(1271 * var(--scaling-factor));
-    height: calc(1184 * var(--scaling-factor));
+    width: calc(1279 * var(--scaling-factor));
+    height: calc(1558 * var(--scaling-factor));
     max-height: initial;
 
     .content {
@@ -78,7 +78,6 @@ export const Window = styled.div`
       width: 60%;
       max-width: 750px;
     }
-
   }
 
   @media only screen and (max-width: 1000px) {
@@ -120,4 +119,4 @@ export const Window = styled.div`
     }
   }
 `
-export default Window
+export default WindowStyles
