@@ -109,6 +109,7 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
+    padding-bottom: 350px;
     .hero__grid {
       max-width: 720px;
 
@@ -127,6 +128,7 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
+    padding-bottom: 300px;
     .hero__grid {
       max-width: 85%;
       grid-template-columns: 1fr 1fr;
@@ -158,17 +160,13 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.xsUp}) {
+    padding-bottom: 200px;
     .hero__color-blur-1 {
       width: 70%;
     }
 
     .hero__color-blur-2 {
-      top: 700px;
-      width: 70%;
-    }
-
-    .hero__color-blur-2 {
-      top: 900px;
+      top: 800px;
       width: 70%;
     }
   }

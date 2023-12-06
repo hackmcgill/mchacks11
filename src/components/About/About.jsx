@@ -10,8 +10,8 @@ import { Content } from "./Content"
 
 const About = ({ scrollRef }) => (
   <Container ref={scrollRef} style={{}}>
-    <img className="color-blur-3" src={ColorBlur3} alt="" />
     <Content>
+      <img className="color-blur-3" src={ColorBlur3} alt="" />
       <Text>
         <h2>Dream. Develop. Deploy!</h2>
         <p>

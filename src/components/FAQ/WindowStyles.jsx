@@ -94,7 +94,7 @@ export const WindowStyles = styled.div`
     max-width: 720px;
     height: initial;
     width: 100%;
-    top: 300px;
+    top: 0;
 
     .content {
       position: initial;

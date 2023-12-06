@@ -15,8 +15,8 @@ const mailTo = () => {
 
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
-    <img className="color-blur-4" src={ColorBlur4} alt="" />
     <Content>
+      <img className="color-blur-4" src={ColorBlur4} alt="" />
       <div>
         <Image src={SponsorImg} />
       </div>
