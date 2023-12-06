@@ -39,7 +39,7 @@ export const WindowStyles = styled.div`
     max-height: 693px;
     max-width: 1202px;
 
-    padding-top: 70px;
+    padding-top: 65px;
   }
 
   .questions {
@@ -55,14 +55,18 @@ export const WindowStyles = styled.div`
     max-height: initial;
 
     .content {
-      padding: 50px;
       height: calc(1000 * var(--scaling-factor));
       width: calc(1202 * var(--scaling-factor));
       max-height: initial;
+      padding-top: 35px;
+    }
+    .questions {
+      width: 50%;
+      max-width: 750px;
     }
   }
 
-  @media only screen and (max-width: 1118px) {
+  @media only screen and (max-width: 1200px) {
     background-image: url(${WindowSvgLong});
     width: calc(1279 * var(--scaling-factor));
     height: calc(1558 * var(--scaling-factor));
@@ -72,6 +76,7 @@ export const WindowStyles = styled.div`
       height: calc(1000 * var(--scaling-factor));
       width: calc(1202 * var(--scaling-factor));
       max-height: initial;
+      padding-top: 25px;
     }
 
     .questions {
@@ -116,6 +121,7 @@ export const WindowStyles = styled.div`
       cursor: pointer;
       margin: 20px;
       box-sizing: border-box;
+      height: auto;
     }
   }
 `
