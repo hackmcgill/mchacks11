@@ -7,6 +7,7 @@ export const Links = styled.div`
   position: fixed;
   top: 16px;
   left: 192px;
+  left: calc(90px + 3.8vw); // NEW
   display: flex;
 
   .Nav__socials {
@@ -15,12 +16,13 @@ export const Links = styled.div`
     z-index: 1;
 
     right: ${props => (props.hasBorder ? "4rem" : "16.5rem")};
+    right: ${props => (props.hasBorder ? "4rem" : "calc(14rem + 1vw)")}; // NEW
   }
 
   .Nav__mlh-banner {
     position: fixed;
     top: 0;
-    right: 4.5rem;
+    right: calc(3rem + 0.9vw);
     width: 90px;
     height: auto;
     transition: opacity 0.15s ease-in-out;
