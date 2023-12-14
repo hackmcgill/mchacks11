@@ -22,11 +22,13 @@ export const Links = styled.div`
   .Nav__mlh-banner {
     position: fixed;
     top: 0;
-    right: calc(3rem + 0.9vw);
+    right: 4.5rem;
+    right: calc(3rem + 0.9vw); // NEW
     width: 90px;
     height: auto;
     transition: opacity 0.15s ease-in-out;
     opacity: ${props => (props.hasBorder ? "0" : "1")};
+    pointer-events: ${props => (props.hasBorder ? "none" : "")};
     z-index: 0;
 
     img {
