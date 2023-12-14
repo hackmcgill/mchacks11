@@ -7,14 +7,14 @@ const Container = styled.section`
   padding: 0 14px 0 14px;
 
   .QuestionBox {
-    border: 1px solid ${styleVars.faqBlue2};
-    padding: 10px 10px;
+    border: 1px solid ${styleVars.hackBlack};
+    padding: 14px 10px;
     border-radius: 5px;
     text-align: left;
     font-size: 1em;
     cursor: pointer;
     transition: background 0.5s ease;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
     margin-left: 20px;
     margin-right: 20px;
     box-sizing: border-box;
@@ -36,7 +36,7 @@ const Container = styled.section`
       }
 
       .expandButton > img {
-        opacity: 30%;
+        opacity: 90%;
         position: relative;
         top: 0px;
         transition: opacity 0.3s ease, transform 0.3s ease;
@@ -44,7 +44,7 @@ const Container = styled.section`
     }
 
     .answer {
-      color: ${styleVars.hackBlack60};
+      color: ${styleVars.faqBlack};
       margin-top: 10px;
       font-size: 0.9em;
       display: none;
@@ -64,24 +64,17 @@ const Container = styled.section`
       }
 
       .question {
-        border-color: ${styleVars.hackWhite} !important;
+        color: ${styleVars.faqBlue3};
       }
-    }
-
-    &:hover {
-      .expandButton > img {
-        opacity: 90%;
-      }
-    }
   }
 
   @media only screen and (max-width: 1000px) {
-    height: 1800px;
+    height: 180px;
     overflow: hidden;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    height: 2000px;
+    height: 200px;
   }
 
   &.hidden {

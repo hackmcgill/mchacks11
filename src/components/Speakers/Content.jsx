@@ -5,10 +5,10 @@ export const Content = styled.div`
   max-width: 1000px;
   margin: auto;
   margin-bottom: 5rem;
-  display:flex;
+  display: flex;
 
   @media only screen and (max-width: 1118px) {
-    display:inline;
+    display: inline;
     text-align: center;
   }
 `

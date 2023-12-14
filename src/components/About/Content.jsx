@@ -9,6 +9,13 @@ export const Content = styled.div`
   margin: auto;
   gap: 40px;
 
+  .color-blur-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
   @media only screen and (max-width: ${styleVars.mdUp}) {
     flex-direction: column;
     justify-content: center;
@@ -19,5 +26,8 @@ export const Content = styled.div`
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     padding: 0;
+    .color-blur-3 {
+      width: 70%;
+    }
   }
 `

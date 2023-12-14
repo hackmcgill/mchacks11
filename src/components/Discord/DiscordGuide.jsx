@@ -39,10 +39,10 @@ const DiscordGuide = () => {
           <h2>What is a discord server?</h2>
           <ul>
             <li>
-              An invite-only home for the community - in our case, McHacks 11! If
-              you are a slack user, you can think of it like a Slack workspace.
-              It is a place where you can talk, ask for help, get announcements,
-              hang out, and have fun!
+              An invite-only home for the community - in our case, McHacks 11!
+              If you are a slack user, you can think of it like a Slack
+              workspace. It is a place where you can talk, ask for help, get
+              announcements, hang out, and have fun!
             </li>
             <li>
               There will be a bunch of channels within the server for different

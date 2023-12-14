@@ -51,7 +51,7 @@ const Nav = ({
           FAQ
         </NavLink>
       ) : null}
-      
+
       <NavLink href="https://app.mchacks.ca" mobile={mobile}>
         Apply
       </NavLink>

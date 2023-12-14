@@ -19,7 +19,7 @@ export const Text = styled.div`
     font-weight: 400;
     margin-bottom: 0.22rem;
   }
-  
+
   a {
     color: ${styleVars.darkYellow};
   }

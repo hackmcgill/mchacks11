@@ -9,7 +9,7 @@ const Info = ({ visible }) => (
     <Content>
       <Text>
         <h2>
-          Welcome to McHacks 11! {" "}
+          Welcome to McHacks 11!{" "}
           <span role="img" aria-label="wave">
             👋
           </span>{" "}
@@ -34,11 +34,11 @@ const Info = ({ visible }) => (
         </p>
         <p>
           Make sure to join the{" "}
-          <a href="https://discord.com/invite/fqbjr43cKf">McHacks 11 Discord</a> server
-          for announcements, event Zoom links, to chat with other hackers, and
-          to form teams. It’s important for all hackers to be in the Discord as
-          it is the main form of communication between hackers, judges,
-          sponsors, and organizers during McHacks.
+          <a href="https://discord.com/invite/fqbjr43cKf">McHacks 11 Discord</a>{" "}
+          server for announcements, event Zoom links, to chat with other
+          hackers, and to form teams. It’s important for all hackers to be in
+          the Discord as it is the main form of communication between hackers,
+          judges, sponsors, and organizers during McHacks.
           <br />
           <br />
           Check out the{" "}

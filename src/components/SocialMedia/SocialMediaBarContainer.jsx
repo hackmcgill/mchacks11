@@ -5,6 +5,7 @@ export const Container = styled.div`
 
   .SocialMediaBar__icon {
     margin-left: 14px;
+    margin-left: calc(0.4vw + 5px); // NEW
     transition: filter 0.3s ease;
 
     &:hover {

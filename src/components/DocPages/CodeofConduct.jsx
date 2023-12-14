@@ -10,13 +10,13 @@ const CodeOfConduct = () => (
       <Text>
         <h1>Code of Conduct</h1>
         <p>
-        McHacks aims to be a hackathon where all participants and volunteers
-        feel welcome, included, respected and safe. All attendees–including
-        sponsors, students, speakers, judges, volunteers, and organizers–are
-        therefore required to abide by the following code of conduct at all
-        times.
+          McHacks aims to be a hackathon where all participants and volunteers
+          feel welcome, included, respected and safe. All attendees–including
+          sponsors, students, speakers, judges, volunteers, and organizers–are
+          therefore required to abide by the following code of conduct at all
+          times.
         </p>
-        
+
         <h2>Summary</h2>
         <p>
           Our hackathon is dedicated to providing a harassment-free space for
@@ -117,7 +117,8 @@ const CodeOfConduct = () => (
           resources immediately:
           <br></br>
           <br></br>
-          <b>MLH Incident Reporting:</b> <a href="tel:409-202-6060">(409) 202-6060</a>
+          <b>MLH Incident Reporting:</b>{" "}
+          <a href="tel:409-202-6060">(409) 202-6060</a>
           <br></br>
           <br></br>
           <b>
@@ -128,8 +129,12 @@ const CodeOfConduct = () => (
           <br></br>
           <b>Montreal Police/Fire/Paramedics</b>
           <ul>
-            <li>Emergency: <a href="tel:911">911</a></li>
-            <li>Non-Emergency: <a href="tel:514-280-2222">(514) 280-2222</a></li>
+            <li>
+              Emergency: <a href="tel:911">911</a>
+            </li>
+            <li>
+              Non-Emergency: <a href="tel:514-280-2222">(514) 280-2222</a>
+            </li>
           </ul>
           <hr size="1"></hr>
           <br></br>

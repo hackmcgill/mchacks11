@@ -3,7 +3,6 @@ import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
   padding-bottom: 520px;
-  border-bottom: 4px solid ${styleVars.primary};
 
   .hero__wrapper {
     display: flex;
@@ -17,7 +16,8 @@ export const HeroStyles = styled.section`
     gap: 60px;
   }
 
-  .hero__color-blur-1, .hero__color-blur-2 {
+  .hero__color-blur-1,
+  .hero__color-blur-2 {
     position: absolute;
     z-index: -1;
     width: 45%;
@@ -107,8 +107,9 @@ export const HeroStyles = styled.section`
   .hero__heading {
     display: none; /* Leave in h1 for SEO */
   }
- 
+
   @media only screen and (max-width: ${styleVars.mdUp}) {
+    padding-bottom: 350px;
     .hero__grid {
       max-width: 720px;
 
@@ -127,10 +128,11 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
+    padding-bottom: 300px;
     .hero__grid {
       max-width: 85%;
       grid-template-columns: 1fr 1fr;
-      
+
       .hero__heading-image {
         grid-column: 1 / span 2;
         width: 100%;
@@ -144,12 +146,12 @@ export const HeroStyles = styled.section`
         grid-column: 1;
         grid-row: 2;
       }
-  
+
       .hero__grid__date {
         grid-column: 2;
         grid-row: 2;
       }
-  
+
       .hero__grid__signup {
         grid-column: 1 / span 2;
         grid-row: 3;
@@ -158,12 +160,13 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.xsUp}) {
+    padding-bottom: 200px;
     .hero__color-blur-1 {
       width: 70%;
     }
 
     .hero__color-blur-2 {
-      top: 700px;
+      top: 800px;
       width: 70%;
     }
   }

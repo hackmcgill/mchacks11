@@ -13,7 +13,7 @@ import MobileMenu from "../Nav/MobileMenu"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 
 const LiveNav = ({ switchPage = () => {}, activePage }) => {
-  const NavItems = (mobile) => (
+  const NavItems = mobile => (
     <>
       <NavLink
         onClick={() => switchPage("info")}

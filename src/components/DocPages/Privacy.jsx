@@ -49,10 +49,11 @@ const Privacy = () => (
           <br></br>
           <br></br>
           Some of this information may be shared with sponsors with your
-          explicit permission for recruiting purposes. For example, we might share a participant's Resume
-          or CV with specific sponsors. Hacker's demographic information that we optionally collect (race, gender, age)
-          during the application process will never be shared with sponsors and are used purely
-          for anonymous demographic reports.
+          explicit permission for recruiting purposes. For example, we might
+          share a participant's Resume or CV with specific sponsors. Hacker's
+          demographic information that we optionally collect (race, gender, age)
+          during the application process will never be shared with sponsors and
+          are used purely for anonymous demographic reports.
         </p>
         <h2>Emails and Other Messages</h2>
         <p>

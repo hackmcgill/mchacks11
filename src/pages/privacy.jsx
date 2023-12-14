@@ -9,9 +9,7 @@ const PrivacyPage = () => {
   return (
     <div>
       <SEO />
-      <Nav
-        darkBackground={true}
-      />
+      <Nav darkBackground={true} />
       <Privacy />
       <Footer />
     </div>

@@ -9,7 +9,7 @@ import * as styleVars from "../variable"
 
 const EventInfo = () => {
   return (
-    <div style={{backgroundColor: styleVars.darkSecondaryBlue}}>
+    <div style={{ backgroundColor: styleVars.darkSecondaryBlue }}>
       {/*<Container>
         <Image src={Event49Img}
           width={840}
@@ -36,4 +36,4 @@ const EventInfo = () => {
   )
 }
 
-export default EventInfo;
+export default EventInfo

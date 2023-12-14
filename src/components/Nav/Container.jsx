@@ -15,7 +15,8 @@ export const Container = styled.nav`
   align-items: center;
   transition: 0.4s background-color ease-in, 0.4s box-shadow ease-in;
 
-  &.has-border, &.dark-background {
+  &.has-border,
+  &.dark-background {
     background-color: ${styleVars.hackGold} !important;
     box-shadow: 0 2px 6px 3px ${styleVars.hackGold}66 !important;
     border-bottom: 4px solid ${styleVars.primary};

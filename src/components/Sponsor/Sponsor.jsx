@@ -6,6 +6,7 @@ import Image from "./Image"
 import Text from "./Text"
 import Button from "./Button"
 
+import ColorBlur4 from "../../assets/images/designs/blur-4.png"
 import SponsorImg from "../../assets/images/designs/sponsor.svg"
 
 const mailTo = () => {
@@ -15,6 +16,7 @@ const mailTo = () => {
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
     <Content>
+      <img className="color-blur-4" src={ColorBlur4} alt="" />
       <div>
         <Image src={SponsorImg} />
       </div>
@@ -22,9 +24,9 @@ const Sponsor = ({ scrollRef }) => (
         <h2>Interested in sponsoring McHacks?</h2>
         <p>
           This winter, the best and brightest students from around the world
-          will connect for 24 hours to shake the world of technology.
-          We want you to be a part of this incredible experience, and we need
-          your help to bring it to life!
+          will connect for 24 hours to shake the world of technology. We want
+          you to be a part of this incredible experience, and we need your help
+          to bring it to life!
         </p>
         <p>
           Spend a weekend with McHacks and witness tomorrow’s leaders using your
