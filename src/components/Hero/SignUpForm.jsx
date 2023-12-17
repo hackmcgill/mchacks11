@@ -58,7 +58,7 @@ export const McInputWrapper = styled.div`
 const SignUpForm = () => (
   <div id="mc_embed_signup">
     <form
-      action="https://mchacks.us12.list-manage.com/subscribe/post?u=daca896c9229eac78a0cc3810&amp;id=a5a34f6561"
+      action="https://mchacks.us21.list-manage.com/subscribe/post?u=5369e4c4f19f741106977ddfa&amp;id=cb6c20e487&amp;f_id=00b9e9e6f0"
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
