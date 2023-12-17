@@ -7,17 +7,13 @@ const StyledLogo = styled.section`
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 1em 4rem;
-
-  a {
-    max-width: 100%;
-    max-height: 100%;
-  }
 
   img {
-    max-width: 100%;
-    max-height: 100%;
     transition: 0.3s ease;
+    margin: 18px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 
     &:hover {
       transform: scale(1.1);
@@ -55,74 +51,49 @@ const Content = ({ link, image, alt }) => {
 }
 
 const TeraLogo = styled(StyledLogo)`
-  flex-basis: 90%;
-  align-self: center;
-  padding: 2%;
-
   a {
     img {
-      max-height: 25vh;
-      max-width: 25vw;
+      height: 240px;
     }
   }
 `
 
 const GigaLogo = styled(StyledLogo)`
-  flex-basis: 65%;
-  align-self: center;
-  padding: 2%;
-
   a {
     img {
-      max-height: 10vh;
+      height: 180px;
     }
   }
 `
 
 const MegaLogo = styled(StyledLogo)`
-  flex-basis: 45%;
-  align-self: center;
-  padding: 2%;
-
   a {
     img {
-      max-height: 9vh;
+      height: 90px;
     }
   }
 `
 
 const KiloLogo = styled(StyledLogo)`
-  flex-basis: 21%;
-  align-self: center;
-  padding: 2%;
-
   a {
     img {
-      max-height: 6vh;
+      height: 70px;
     }
   }
 `
 
 const ByteLogo = styled(StyledLogo)`
-  flex-basis: 18%;
-  align-self: center;
-  padding: 1%;
-
   a {
     img {
-      max-height: 5vh;
+      height: 50px;
     }
   }
 `
 
 const InKindLogo = styled(StyledLogo)`
-  flex-basis: 7%;
-  align-self: center;
-  padding: 1.5%;
-
   a {
     img {
-      max-height: 4vh;
+      height: 25px;
     }
   }
 `
