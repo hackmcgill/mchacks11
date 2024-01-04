@@ -53,7 +53,7 @@ const Content = ({ link, image, alt }) => {
 const TeraLogo = styled(StyledLogo)`
   a {
     img {
-      height: 240px;
+      height: 280px;
     }
   }
 `
@@ -61,7 +61,7 @@ const TeraLogo = styled(StyledLogo)`
 const GigaLogo = styled(StyledLogo)`
   a {
     img {
-      height: 180px;
+      height: 210px;
     }
   }
 `
@@ -69,7 +69,7 @@ const GigaLogo = styled(StyledLogo)`
 const MegaLogo = styled(StyledLogo)`
   a {
     img {
-      height: 90px;
+      height: 120px;
     }
   }
 `
@@ -77,7 +77,7 @@ const MegaLogo = styled(StyledLogo)`
 const KiloLogo = styled(StyledLogo)`
   a {
     img {
-      height: 70px;
+      height: 90px;
     }
   }
 `
@@ -93,7 +93,7 @@ const ByteLogo = styled(StyledLogo)`
 const InKindLogo = styled(StyledLogo)`
   a {
     img {
-      height: 25px;
+      height: 50px;
     }
   }
 `
