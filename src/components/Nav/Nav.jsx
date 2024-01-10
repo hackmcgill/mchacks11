@@ -35,28 +35,28 @@ const Nav = ({
   const NavItems = mobile => (
     <>
       {scrollToAbout ? (
-        <NavLink onClick={scrollToAbout} mobile={mobile}>
+        <NavLink onClick={scrollToAbout} $mobile={mobile}>
           About
         </NavLink>
       ) : null}
 
       {scrollToSponsor ? (
-        <NavLink onClick={scrollToSponsor} mobile={mobile}>
+        <NavLink onClick={scrollToSponsor} $mobile={mobile}>
           Sponsor
         </NavLink>
       ) : null}
 
       {scrollToFaq ? (
-        <NavLink onClick={scrollToFaq} mobile={mobile}>
+        <NavLink onClick={scrollToFaq} $mobile={mobile}>
           FAQ
         </NavLink>
       ) : null}
 
-      {/* <NavLink href="https://app.mchacks.ca" mobile={mobile}>
+      {/* <NavLink href="https://app.mchacks.ca" $mobile={mobile}>
         Apply
       </NavLink>
 
-      <NavLink href="https://forms.gle/2CHq5PZZLxuirVCT6" mobile={mobile}>
+      <NavLink href="https://forms.gle/2CHq5PZZLxuirVCT6" $mobile={mobile}>
         Volunteer
       </NavLink> */}
     </>
@@ -74,7 +74,7 @@ const Nav = ({
             <Icon src={Logo} />
           </Link>
         </IconContainer>
-        <Links hasBorder={hasBorder}>
+        <Links $hasBorder={hasBorder}>
           {NavItems(false)}
           <div className="Nav__socials">
             <SocialMediaBar />
