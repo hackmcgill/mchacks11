@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const InnerContent = styled.img`
-  
   float: right;
   width: 180px;
   height: auto;

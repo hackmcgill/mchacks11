@@ -16,9 +16,7 @@ import SocialLink from "./SocialLink"
 const Footer = () => (
   <Container>
     <Links>
-      <PageLink href="/code-of-conduct">
-        Code of Conduct
-      </PageLink>
+      <PageLink href="/code-of-conduct">Code of Conduct</PageLink>
       <PageLink href="/privacy">Privacy Policy</PageLink>
       <PageLink href="/discord-guide">Discord Guide</PageLink>
       {/* TODO

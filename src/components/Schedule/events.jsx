@@ -13,7 +13,7 @@ const events = [
     type: "Main Event",
     startTime: "8:00 PM",
     description:
-      "Come join us on this Fireside chat featuring panelists from Huawei and Secureworks! Learn all about their stories and background, what passionates them, personal insights on current trends, and more on this casual panel discussion hosted by hackboard moderators. Featuring a live Q&A at the end where you can ask questions to them directly!"
+      "Come join us on this Fireside chat featuring panelists from Huawei and Secureworks! Learn all about their stories and background, what passionates them, personal insights on current trends, and more on this casual panel discussion hosted by hackboard moderators. Featuring a live Q&A at the end where you can ask questions to them directly!",
   },
   {
     day: 1,
@@ -22,15 +22,20 @@ const events = [
     type: "Workshop",
     location: "Zoom",
     startTime: "8:45 PM",
-    description:
-      <div> In this live demo workshop our SRE team lead for public cloud Charles Vaillancourt will be showing you how to
+    description: (
+      <div>
+        {" "}
+        In this live demo workshop our SRE team lead for public cloud Charles
+        Vaillancourt will be showing you how to
         <ul>
           <li>Configure and install the openstack client</li>
           <li>Understand the core commands of the openstack client</li>
           <li>Create your first server from the command line</li>
         </ul>
-        This will allow you to understand how to host your project on OVHCloud's Public Cloud service
-      </div>,
+        This will allow you to understand how to host your project on OVHCloud's
+        Public Cloud service
+      </div>
+    ),
     company: "OVHCloud",
   },
   {
@@ -55,7 +60,7 @@ const events = [
     location: "Zoom",
     startTime: "9:15 PM",
     description:
-      "This workshop will rump you up for the challenge of \"Best Use of Huawei Ascend AI Platform\". It includes: introduction to the challenge, how to select a topic, how to find the datasets and algorithms, and a quick-start guide on Ascend AI platform (MindSpore + CANN).",
+      'This workshop will rump you up for the challenge of "Best Use of Huawei Ascend AI Platform". It includes: introduction to the challenge, how to select a topic, how to find the datasets and algorithms, and a quick-start guide on Ascend AI platform (MindSpore + CANN).',
     company: "Huawei",
   },
   {
@@ -64,14 +69,19 @@ const events = [
     type: "Workshop",
     location: "Discord",
     startTime: "10:00 PM",
-    description:
-      <div>Is this your first Hackathon? Or do you want some extra tips to make your project extra cool? Tune in to learn about the many tools and skills you can use for your one-of-a-kind digital solutions! We'll be holding a series a three mini workshops on the following subjects:	
+    description: (
+      <div>
+        Is this your first Hackathon? Or do you want some extra tips to make
+        your project extra cool? Tune in to learn about the many tools and
+        skills you can use for your one-of-a-kind digital solutions! We'll be
+        holding a series a three mini workshops on the following subjects:
         <ol>
           <li> Timeline of a Hackathon </li>
           <li> Collaborating via GitHub</li>
           <li> Newbie Hacker Resource Tour</li>
         </ol>
-      </div>,
+      </div>
+    ),
   },
   {
     day: 1,
@@ -79,8 +89,17 @@ const events = [
     type: "Game",
     location: "Discord",
     startTime: "11:00 PM",
-    description:
-      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/" target="_blank" rel="noopener noreferrer"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
+    description: (
+      <div>
+        Show off your team's gaming expertise by dominating the leaderboard in a
+        variety of online games. We'll be playing rounds of{" "}
+        <a href="https://skribbl.io/" target="_blank" rel="noopener noreferrer">
+          {" "}
+          skribbl.io
+        </a>
+        , GeoGuesser, Set, and more, so come prepared!
+      </div>
+    ),
   },
   {
     day: 1,
@@ -123,9 +142,9 @@ const events = [
     type: "Workshop",
     location: "Discord",
     startTime: "10:00 AM",
-    endTime:"12:00 PM",
+    endTime: "12:00 PM",
     description:
-      "This is your time to mingle with sponsors! All sponsors will be in their channels while some mentors will be in mentor text channels. If you want to learn more about sponsor challenges, talk to recruiters, and more, leave this slot open in your schedule!"
+      "This is your time to mingle with sponsors! All sponsors will be in their channels while some mentors will be in mentor text channels. If you want to learn more about sponsor challenges, talk to recruiters, and more, leave this slot open in your schedule!",
   },
   {
     day: 2,
@@ -142,8 +161,19 @@ const events = [
     type: "Workshop",
     location: "Zoom",
     startTime: "12:00 PM",
-    description:
-      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
+    description: (
+      <div>
+        Looking to make a personal website or portfolio but don't know where to
+        start? Join us for this workshop on creating a portfolio with HTML/CSS!
+        You'll learn some basic HTML/CSS from a walkthrough with us on how to
+        create a portfolio webpage that you can push right to deployment or
+        expand on after. Before the workshop, be sure to sign up for{" "}
+        <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">
+          Glitch
+        </a>{" "}
+        or link it to your Github account.
+      </div>
+    ),
   },
   {
     day: 2,
@@ -153,7 +183,7 @@ const events = [
     startTime: "12:00 PM",
     description:
       "Learn how to navigate Twilio’s API and design system! If you are interested in using Twilio’s resources and would like more information, this workshop is for you!",
-    company: "Twilio"
+    company: "Twilio",
   },
   {
     day: 2,
@@ -181,9 +211,9 @@ const events = [
     type: "Workshop",
     location: "Zoom",
     startTime: "2:00 PM",
-    endTime:"4:00 PM",
+    endTime: "4:00 PM",
     description:
-      "Looking to connect with recruiters, curious about what positions are open, or want to show your resume? Then speed networking is for you! All details, including zoom links and sign up form, can be found in the #speed-networking channel. Don’t miss out on this great opportunity!"
+      "Looking to connect with recruiters, curious about what positions are open, or want to show your resume? Then speed networking is for you! All details, including zoom links and sign up form, can be found in the #speed-networking channel. Don’t miss out on this great opportunity!",
   },
   {
     day: 2,
@@ -264,8 +294,14 @@ const events = [
     type: "Game",
     location: "Discord",
     startTime: "11:00 PM",
-    description:
-      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
+    description: (
+      <div>
+        Show off your team's gaming expertise by dominating the leaderboard in a
+        variety of online games. We'll be playing rounds of{" "}
+        <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and
+        more, so come prepared!
+      </div>
+    ),
   },
   {
     day: 2,

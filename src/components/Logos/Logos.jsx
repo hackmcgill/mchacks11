@@ -5,6 +5,8 @@ import Content from "./Content"
 
 import Logo from "./Logo"
 import Tier from "./Tier"
+import ComingSoon from "../../assets/images/designs/comingSoon.svg"
+import Martlet from "../../assets/images/designs/martlet.svg"
 
 const Logos = ({ scrollRef }) => {
   const {
@@ -48,6 +50,12 @@ const Logos = ({ scrollRef }) => {
           ))}
         </Content>
       ) : null}
+      {/* <div className="coming-soon">
+        <img className="coming-soon__martlet" src={Martlet}></img>
+        <img className="coming-soon__box" src={ComingSoon}></img>
+        <h1>and more coming soon...!</h1>
+      </div>
+       */}
     </Container>
   )
 }

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const Image = styled.img`
   max-width: 840px;
@@ -18,4 +18,4 @@ const Image = styled.img`
   }
 `
 
-export default Image;
+export default Image
