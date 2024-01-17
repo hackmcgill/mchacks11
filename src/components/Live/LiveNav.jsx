@@ -41,9 +41,9 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
           <Icon src={Logo} />
         </Link>
       </IconContainer>
-      <Links>{<NavItems />}</Links>
+      <Links>{NavItems}</Links>
       <Menu isOpen={true} styles={MobileMenu}>
-        {<NavItems />}
+        {NavItems}
       </Menu>
     </Container>
   )
