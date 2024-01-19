@@ -119,7 +119,7 @@ export const WindowStyles = styled.div`
       text-align: left;
       font-size: 1.2em;
       cursor: pointer;
-      margin: 20px;
+      margin: 20px 0;
       box-sizing: border-box;
       height: auto;
     }

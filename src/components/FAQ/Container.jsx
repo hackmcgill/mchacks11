@@ -15,8 +15,6 @@ const Container = styled.section`
     cursor: pointer;
     transition: background 0.5s ease;
     margin-bottom: 29px;
-    margin-left: 20px;
-    margin-right: 20px;
     box-sizing: border-box;
     background-color: white;
 
