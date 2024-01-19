@@ -5,9 +5,7 @@ export const Text = styled.div`
   max-width: 590px;
   font-size: 16px;
   margin-top: 60px;
-  border: 2.5px solid ${styleVars.primary};
   height: min-content;
-  border-radius: 20px;
   padding: 60px;
 
   h2 {

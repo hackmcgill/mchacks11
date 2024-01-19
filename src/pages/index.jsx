@@ -40,9 +40,9 @@ const IndexPage = () => {
       <EventInfo />
       <Sponsor scrollRef={sponsorRef} />
       <FAQ scrollRef={faqRef} />
-      <CarouselSpeaker/>
-      <CarouselRecruiter/>
-      <CarouselMentorAndJudges/>
+      <CarouselSpeaker />
+      <CarouselRecruiter />
+      <CarouselMentorAndJudges />
       <Logos />
       <Footer />
     </div>

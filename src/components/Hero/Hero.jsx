@@ -1,8 +1,8 @@
 import React from "react"
 import McHacksImg from "../../assets/images/designs/mchacks11-hero-logo.svg"
 import HeroShapesImg from "../../assets/images/designs/hero-shapes.svg"
-import HeroColorBlur1 from "../../assets/images/designs/hero-color-blur-1.svg"
-import HeroColorBlur2 from "../../assets/images/designs/hero-color-blur-2.svg"
+import HeroColorBlur1 from "../../assets/images/designs/blur-1.png"
+import HeroColorBlur2 from "../../assets/images/designs/blur-2.png"
 import Martlet from "../../assets/images/designs/hero-martlet.svg"
 import Button from "./Button"
 import HeroStyles from "./HeroStyles"
@@ -20,6 +20,7 @@ const Hero = () => (
   <HeroStyles>
     <img className="hero__color-blur-1" src={HeroColorBlur1} alt="" />
     <img className="hero__color-blur-2" src={HeroColorBlur2} alt="" />
+
     <div className="hero__wrapper">
       <h1 className="hero__heading">McHacks 11</h1>
       <div className="hero__grid">

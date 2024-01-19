@@ -73,7 +73,7 @@ export const Container = styled.section`
       .type {
         color: ${styleVars.colorHackRed};
       }
-      
+
       .company {
         color: ${styleVars.yellow};
       }
@@ -111,7 +111,7 @@ export const Container = styled.section`
           font-family: "Hind Siliguri", sans-serif;
           margin-top: 8px;
           a {
-            color:  ${styleVars.darkSecondaryBlue};
+            color: ${styleVars.darkSecondaryBlue};
           }
           ol {
             margin-top: 4px;
@@ -165,7 +165,7 @@ export const Container = styled.section`
       }
     }
 
-    &.type-social, 
+    &.type-social,
     &.type-game,
     &.type-food,
     &.type-travel,
@@ -177,7 +177,6 @@ export const Container = styled.section`
         color: ${styleVars.darkSecondaryBlue};
       }
     }
-    
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
