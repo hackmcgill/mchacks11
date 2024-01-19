@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import * as styleVars from '../variable'
+import * as styleVars from "../variable"
 
 const Seperator = styled.div`
   width: 32px;

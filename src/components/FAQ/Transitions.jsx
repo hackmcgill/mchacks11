@@ -39,9 +39,15 @@ const BottomTransition = styled.div`
 `
 
 const TransitionToSponsors = styled.div`
-height: 186px;
-background-image: url(${SponsorTransitionBoxes});
-background-repeat: repeat-x;
+  height: 186px;
+  background-image: url(${SponsorTransitionBoxes});
+  background-repeat: repeat-x;
 `
 
-export { TransitionToFAQ, TopTransition, TopTransitionSides, BottomTransition, TransitionToSponsors }
+export {
+  TransitionToFAQ,
+  TopTransition,
+  TopTransitionSides,
+  BottomTransition,
+  TransitionToSponsors,
+}

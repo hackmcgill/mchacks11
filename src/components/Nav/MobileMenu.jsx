@@ -5,7 +5,7 @@ export const MobileMenu = {
     position: "fixed",
     width: "30px",
     height: "25px",
-    top: "37px",
+    top: "28px",
     right: "30px",
   },
   bmBurgerBars: {
@@ -34,7 +34,7 @@ export const MobileMenu = {
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
-    top: '0',
+    top: "0",
   },
   bmMenu: {
     background: styleVars.hackBlack10,
