@@ -5,11 +5,11 @@ import styled from "styled-components"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
-import "swiper/modules/navigation/navigation.min.css"
-import "swiper/swiper.min.css"
+import "swiper/css/navigation"
+import "swiper/css/bundle"
 
 // import required modules
-import { Navigation } from "swiper"
+import { Navigation } from "swiper/modules"
 import Individual from "../People/Individual"
 
 const CarouselWrapper = styled.div`

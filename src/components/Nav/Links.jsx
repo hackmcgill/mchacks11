@@ -6,17 +6,14 @@ export const Links = styled.div`
   align-items: center;
   position: fixed;
   top: 16px;
-  left: 192px;
-  left: calc(90px + 3.8vw); // NEW
+  left: calc(90px + 3.8vw);
   display: flex;
 
   .Nav__socials {
     position: fixed;
     transition: right 0.25s ease-in-out;
     z-index: 1;
-
-    right: ${props => (props.hasBorder ? "4rem" : "16.5rem")};
-    right: ${props => (props.hasBorder ? "4rem" : "calc(14rem + 1vw)")}; // NEW
+    right: ${props => (props.$hasBorder ? "4rem" : "calc(14rem + 1vw)")};
   }
 
   .Nav__mlh-banner {
@@ -27,8 +24,8 @@ export const Links = styled.div`
     width: 90px;
     height: auto;
     transition: opacity 0.15s ease-in-out;
-    opacity: ${props => (props.hasBorder ? "0" : "1")};
-    pointer-events: ${props => (props.hasBorder ? "none" : "")};
+    opacity: ${props => (props.$hasBorder ? "0" : "1")};
+    pointer-events: ${props => (props.$hasBorder ? "none" : "")};
     z-index: 0;
 
     img {

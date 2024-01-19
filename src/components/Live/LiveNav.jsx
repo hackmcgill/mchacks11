@@ -13,31 +13,27 @@ import MobileMenu from "../Nav/MobileMenu"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 
 const LiveNav = ({ switchPage = () => {}, activePage }) => {
-  const NavItems = mobile => (
+  const NavItems =
     <>
       <NavLink
         onClick={() => switchPage("info")}
         className={activePage === "info" ? "active" : ""}
-        mobile={mobile}
       >
         Info
       </NavLink>
       <NavLink
         onClick={() => switchPage("schedule")}
         className={activePage === "schedule" ? "active" : ""}
-        mobile={mobile}
       >
         Schedule
       </NavLink>
       <NavLink
         onClick={() => switchPage("resources")}
         className={activePage === "resources" ? "active" : ""}
-        mobile={mobile}
       >
         Sponsor Resources
       </NavLink>
     </>
-  )
   return (
     <Container className="dark-background">
       <IconContainer>
@@ -45,9 +41,9 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
           <Icon src={Logo} />
         </Link>
       </IconContainer>
-      <Links>{NavItems()}</Links>
+      <Links>{NavItems}</Links>
       <Menu isOpen={true} styles={MobileMenu}>
-        {NavItems(true)}
+        {NavItems}
       </Menu>
     </Container>
   )

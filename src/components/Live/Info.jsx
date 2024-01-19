@@ -15,7 +15,7 @@ const Info = ({ visible }) => (
           </span>{" "}
         </h2>
         <p>We’re so glad you could make it.</p>
-        <p>
+        <div>
           Our live site is divided into three pages:
           <ul>
             <li>
@@ -31,7 +31,7 @@ const Info = ({ visible }) => (
               <b>Discord Guide</b>.
             </li>
           </ul>
-        </p>
+        </div>
         <p>
           Make sure to join the{" "}
           <a href="https://discord.com/invite/fqbjr43cKf">McHacks 11 Discord</a>{" "}
