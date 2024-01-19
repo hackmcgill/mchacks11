@@ -10,7 +10,7 @@ const StyledLogo = styled.section`
 
   img {
     transition: 0.3s ease;
-    margin: 18px;
+    padding: 16px;
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -53,7 +53,7 @@ const Content = ({ link, image, alt }) => {
 const TeraLogo = styled(StyledLogo)`
   a {
     img {
-      height: 280px;
+      height: 305px;
     }
   }
 `
@@ -61,7 +61,7 @@ const TeraLogo = styled(StyledLogo)`
 const GigaLogo = styled(StyledLogo)`
   a {
     img {
-      height: 210px;
+      height: 235px;
     }
   }
 `
@@ -69,7 +69,7 @@ const GigaLogo = styled(StyledLogo)`
 const MegaLogo = styled(StyledLogo)`
   a {
     img {
-      height: 120px;
+      height: 145px;
     }
   }
 `
@@ -77,7 +77,7 @@ const MegaLogo = styled(StyledLogo)`
 const KiloLogo = styled(StyledLogo)`
   a {
     img {
-      height: 90px;
+      height: 115px;
     }
   }
 `
@@ -85,7 +85,7 @@ const KiloLogo = styled(StyledLogo)`
 const ByteLogo = styled(StyledLogo)`
   a {
     img {
-      height: 50px;
+      height: 75px;
     }
   }
 `
@@ -93,7 +93,7 @@ const ByteLogo = styled(StyledLogo)`
 const InKindLogo = styled(StyledLogo)`
   a {
     img {
-      height: 50px;
+      height: 75px;
     }
   }
 `
