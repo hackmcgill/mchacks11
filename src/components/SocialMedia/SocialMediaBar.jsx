@@ -11,7 +11,7 @@ const SocialMediaBar = () => (
   <Container>
     <div className="SocialMediaBar__icon">
       <a
-        href="https://www.devpost.com/"
+        href="https://mchacks-11.devpost.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
