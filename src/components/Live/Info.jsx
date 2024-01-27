@@ -42,7 +42,7 @@ const Info = ({ visible }) => (
           <br />
           <br />
           Check out the{" "}
-          <a href="http://mchacks10.devpost.com/">McHacks 11 Devpost</a> for
+          <a href="https://mchacks-11.devpost.com/">McHacks 11 Devpost</a> for
           information on judging and prizes and to submit your team’s hack.
           <br />
           <br />
